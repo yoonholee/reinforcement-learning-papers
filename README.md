@@ -46,12 +46,18 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
 ### Trust Region Policy Optimization [[ICML 2015]](https://arxiv.org/pdf/1502.05477)
   - John Schulman, Sergey Levine, Philipp Moritz, Michael Jordan, Pieter Abbeel
   - Builds on [Approximately Optimal Approximate Reinforcement Learning](https://github.com/yoonholee/Reinforcement-Learning-Survey#approximately-optimal-approximate-reinforcement-learning-icml-2002)
-  - Instead of using a linear mixture, TRPO uses average KL divergence to ensure that the next policy is sufficiently close to current policy
-  - The natural policy gradient has the same direction as TRPO obtained with approximation(linear w.r.t. L, quadratic w.r.t. KL divergence)
+  - Instead of using a linear mixture, TRPO uses average KL divergence to ensure that the next policy is sufficiently close to current policy(the algorithm approximates L linearly and KL divergence quadratically)
+  - The natural policy gradient has the same direction as TRPO; the difference is the step size choosing scheme of TRPO
   - Empirical performance is comparable to state of the art in both robotic locomotion and atari games
+  
+### High-dimensional Continuous Control Using Generalized Advantage Functions [[ICLR 2016]](https://arxiv.org/pdf/1506.02438)
+  - John Schulman, Philipp Moritz, Sergey Levine, Michael I. Jordan, Pieter Abbeel
+  -  Videos available [here](https://sites.google.com/site/gaepapersupp)
+  - Derives a class of estimators(GAE) of the advantage function, parameterized by two real numbers in [0,1]
+  - Empirical performance of TRPO+GAE is better than TRPO in some tasks
 
 ### Continuous Control with Deep Reinforcement Learning [[ICLR 2016]](https://arxiv.org/pdf/1509.02971)
   - Google Deepmind(Timothy P. Lillicrap, Jonathan J. Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver, Daan Wierstra)
   - Videos available [here](https://goo.gl/J4PIAz)
-  - Suggests DDPG, which improves the actor-critic algorithm in [Deterministic Policy Gradient Algorithm](https://github.com/yoonholee/Reinforcement-Learning-Survey#deterministic-policy-gradient-algorithms-icml-2014) by using a DQN as the critic
+  - Suggests DDPG, which improves the actor-critic algorithm in [Deterministic Policy Gradient Algorithms](https://github.com/yoonholee/Reinforcement-Learning-Survey#deterministic-policy-gradient-algorithms-icml-2014) by using a DQN as the critic
   - Empirically shown to be far more efficient than DQN
