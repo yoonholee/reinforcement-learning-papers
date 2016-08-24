@@ -16,7 +16,7 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
   - Sham Kakade, John Langford
   - Points out the inefficiency of policy gradients using two example MDPs(section 3.2)
   - Derives a conservative policy iteration scheme that finds a policy that is almost optimal(within epsilon) in polynomial(w.r.t. epsilon) time
-  - The key idea is that by using a mixture between the current policy and a greedily improved policy, we can prove that the value function improves.
+  - The key idea is that by using a mixture between the current policy and a greedily improved policy, we can prove that the value function improves
 
 ### A Natural Policy Gradient [[NIPS 2002]](http://papers.nips.cc/paper/2073-a-natural-policy-gradient.pdf)
   - Sham Kakade
@@ -27,7 +27,7 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
   
 ### Natural Actor-Critic [[Neurocomputing 2008]] (http://ac.els-cdn.com/S0925231208000532/1-s2.0-S0925231208000532-main.pdf?_tid=5001927e-69ce-11e6-87f9-00000aacb35f&acdnat=1472024730_f49e79f185266d4824826941cec13967)
   - Jan Peters, Stefan Schaal
-  - Proves that the weight vector discussed in [A Natural Policy Gradient](https://github.com/yoonholee/Reinforcement-Learning-Survey#a-natural-policy-gradient) is in fact the natural gradient, rather than just a gradient defined by an average of point fisher information matrices
+  - Proves that the weight vector discussed in [A Natural Policy Gradient](https://github.com/yoonholee/Reinforcement-Learning-Survey#a-natural-policy-gradient-nips-2002) is in fact the natural gradient, rather than just a gradient defined by an average of point fisher information matrices
   - Suggests a actor-critic style algorithm using the natural gradient
 
 ### Reinforcement learning of motor skills with policy gradients [[Neural Networks 2008]](http://is.tuebingen.mpg.de/fileadmin/user_upload/files/publications/Neural-Netw-2008-21-682_4867[0].pdf)
@@ -43,12 +43,15 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
   - Proves(under mild regularity conditions) that all previously developed machinery for stochastic policy gradients(i.e. compatible function approximation, actor-critic, natural gradients, and episodic/batch methods) are applicable to determinisic policy gradients.
   - Derives deterministic policy gradient algorithms using such machinery
 
+### Trust Region Policy Optimization [[ICML 2015]](https://arxiv.org/pdf/1502.05477)
+  - John Schulman, Sergey Levine, Philipp Moritz, Michael Jordan, Pieter Abbeel
+  - Builds on [Approximately Optimal Approximate Reinforcement Learning](https://github.com/yoonholee/Reinforcement-Learning-Survey#approximately-optimal-approximate-reinforcement-learning-icml-2002)
+  - Instead of using a linear mixture, TRPO uses average KL divergence to ensure that the next policy is sufficiently close to current policy
+  - The natural policy gradient has the same direction as TRPO obtained with approximation(linear w.r.t. L, quadratic w.r.t. KL divergence)
+  - Empirical performance is comparable to state of the art in both robotic locomotion and atari games
+
 ### Continuous Control with Deep Reinforcement Learning [[ICLR 2016]](https://arxiv.org/pdf/1509.02971)
   - Google Deepmind(Timothy P. Lillicrap, Jonathan J. Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver, Daan Wierstra)
   - Videos available [here](https://goo.gl/J4PIAz)
-  - Suggests DDPG, which improves the actor-critic algorithm in [Deterministic Policy Gradient Algorithm](https://github.com/yoonholee/Reinforcement-Learning-Survey#deterministic-policy-gradient-algorithms) by using a DQN as the critic
+  - Suggests DDPG, which improves the actor-critic algorithm in [Deterministic Policy Gradient Algorithm](https://github.com/yoonholee/Reinforcement-Learning-Survey#deterministic-policy-gradient-algorithms-icml-2014) by using a DQN as the critic
   - Empirically shown to be far more efficient than DQN
-
-### Trust Region Policy Optimization [[ICML 2015]](https://arxiv.org/pdf/1502.05477)
-  - John Schulman, Sergey Levine, Philipp Moritz, Michael Jordan, Pieter Abbeel
-  - 
