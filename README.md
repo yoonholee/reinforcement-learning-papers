@@ -64,6 +64,6 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
   - Empirically shown to be far more efficient than DQN
  
 
-## Policy Gradient
+## Imitation Learning
 
 
