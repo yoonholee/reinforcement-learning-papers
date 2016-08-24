@@ -71,3 +71,9 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
   - Reduces to IRL(Inverse Reinforcement Learning) to a LP(linear programming) problem, and introduces a penalty term to choose a reward function within the class obtained from LP
   - Experiments show promising results on simple enviornments
 
+### Model-Free Imitation Learning with Policy Optimization[[ICML 2016]](https://arxiv.org/pdf/1605.08478)
+  - Jonathan Ho, Jayesh K. Gupta, Stefano Ermon
+  - Given a class of reward functions, find the policy that maximizes the minimum advantage against expert policy over the whole class
+  - Suggests two algorithms, IM-REINFORCE and IM-TRPO, both of which iteratively find better and better policies
+  
+
