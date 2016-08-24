@@ -12,6 +12,12 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
 
 ## Policy Gradient
 
+### Approximately Optimal Approximate Reinforcement Learning [[ICML 2002]](https://www.cs.cmu.edu/~./jcl/papers/aoarl/Final.pdf)
+  - Sham Kakade, John Langford
+  - Points out the inefficiency of policy gradients using two example MDPs(section 3.2)
+  - Derives a conservative policy iteration scheme that finds a policy that is almost optimal(within epsilon) in polynomial(w.r.t. epsilon) time
+  - The key idea is that by using a mixture between the current policy and a greedily improved policy, we can prove that the value function improves.
+
 ### A Natural Policy Gradient [[NIPS 2002]](http://papers.nips.cc/paper/2073-a-natural-policy-gradient.pdf)
   - Sham Kakade
   - Parameterizes Q(s,a) as a weighted sum of log p(a;s)
@@ -42,3 +48,7 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
   - Videos available [here](https://goo.gl/J4PIAz)
   - Suggests DDPG, which improves the actor-critic algorithm in [Deterministic Policy Gradient Algorithm](https://github.com/yoonholee/Reinforcement-Learning-Survey#deterministic-policy-gradient-algorithms) by using a DQN as the critic
   - Empirically shown to be far more efficient than DQN
+
+### Trust Region Policy Optimization [[ICML 2015]](https://arxiv.org/pdf/1502.05477)
+  - John Schulman, Sergey Levine, Philipp Moritz, Michael Jordan, Pieter Abbeel
+  - 
