@@ -66,4 +66,8 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
 
 ## Imitation Learning
 
+### Algorithms for Inverse Reinforcement Learning [[ICML 2000]](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=4C4D16E1D96E10A07A1EFFD5D64C7C68?doi=10.1.1.41.7513&rep=rep1&type=pdf)
+  - Andrewy Y. Ng, Stuart Russell
+  - Reduces to IRL(Inverse Reinforcement Learning) to a LP(linear programming) problem, and introduces a penalty term to choose a reward function within the class obtained from LP
+  - Experiments show promising results on simple enviornments
 
