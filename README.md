@@ -8,6 +8,7 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
 ## Table of Contents
 
 - [Policy Gradient](https://github.com/yoonholee/Reinforcement-Learning-Survey#policy-gradient)
+- [Imitation Learning](https://github.com/yoonholee/Reinforcement-Learning-Survey#imitation-learning)
 
 
 ## Policy Gradient
@@ -61,3 +62,8 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
   - Videos available [here](https://goo.gl/J4PIAz)
   - Suggests DDPG, which improves the actor-critic algorithm in [Deterministic Policy Gradient Algorithms](https://github.com/yoonholee/Reinforcement-Learning-Survey#deterministic-policy-gradient-algorithms-icml-2014) by using a DQN as the critic
   - Empirically shown to be far more efficient than DQN
+ 
+
+## Policy Gradient
+
+
