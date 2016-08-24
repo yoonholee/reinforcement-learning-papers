@@ -36,3 +36,9 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
   - Derives a gradient for deterministic policies(assuming a continuous action space)
   - Proves(under mild regularity conditions) that all previously developed machinery for stochastic policy gradients(i.e. compatible function approximation, actor-critic, natural gradients, and episodic/batch methods) are applicable to determinisic policy gradients.
   - Derives deterministic policy gradient algorithms using such machinery
+
+### Continuous Control with Deep Reinforcement Learning [[ICLR 2016]](https://arxiv.org/pdf/1509.02971)
+  - Google Deepmind(Timothy P. Lillicrap, Jonathan J. Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver, Daan Wierstra)
+  - Videos available [here](https://goo.gl/J4PIAz)
+  - Suggests DDPG, which improves the actor-critic algorithm in [Deterministic Policy Gradient Algorithm](https://github.com/yoonholee/Reinforcement-Learning-Survey#deterministic-policy-gradient-algorithms) by using a DQN as the critic
+  - Empirically shown to be far more efficient than DQN
