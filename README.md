@@ -9,7 +9,9 @@ This is a collection of my notes on reinforcement learning papers.
 
 
 ## Policy Gradient
-  - ***Example Paper*** [[AAAI 2016]](http://arxiv.org/abs/1509.06461)
-      - Hado van Hasselt, Arthur Guez, David Silver 
-      - Deal with overestimation of Q-values
-      - Separate action-select-Q and predict-Q 
+
+### Reinforcement learning of motor skills with policy gradients [[Neural Networks 2008]](http://is.tuebingen.mpg.de/fileadmin/user_upload/files/publications/Neural-Netw-2008-21-682_4867[0].pdf)
+  - Jan Peters, Stefan Schaal
+  - An extensive survey of policy gradient methods
+  - Covers naive finite-difference methods, REINFORCE, NAC(natural actor-critic)
+  - NAC is shown to be the state of the art
