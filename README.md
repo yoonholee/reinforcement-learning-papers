@@ -2,6 +2,8 @@
 
 This is a collection of my notes on reinforcement learning papers.
 
+Typo corrections, additional points, new papers etc are all very welcome. You can either make a pull request or email me at einet89[at]postech.ac.kr
+
 
 ## Table of Contents
 
