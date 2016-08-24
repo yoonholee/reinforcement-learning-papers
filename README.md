@@ -29,3 +29,10 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
   - An extensive survey of policy gradient methods
   - Covers naive finite-difference methods, REINFORCE, NAC(natural actor-critic)
   - NAC is shown to be the state of the art
+  
+### Deterministic Policy Gradient Algorithms [[ICML 2014]](http://jmlr.org/proceedings/papers/v32/silver14.pdf)
+  - David Silver, Guy Lever, Nicolas Heess, Thomas Degris, Daan Wierstra, Martin Riedmiller
+  - All proofs are in [a seperate document](http://jmlr.org/proceedings/papers/v32/silver14-supp.pdf)
+  - Derives a gradient for deterministic policies(assuming a continuous action space)
+  - Proves(under mild regularity conditions) that all previously developed machinery for stochastic policy gradients(i.e. compatible function approximation, actor-critic, natural gradients, and episodic/batch methods) are applicable to determinisic policy gradients.
+  - Derives deterministic policy gradient algorithms using such machinery
