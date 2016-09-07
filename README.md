@@ -22,7 +22,7 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
 
 ### A Natural Policy Gradient [[NIPS 2002]](http://papers.nips.cc/paper/2073-a-natural-policy-gradient.pdf)
   - Sham Kakade
-  - Parameterizes Q(s,a) as a weighted sum of log p(a;s)
+  - Parameterizes Q(s,a) as a weighted sum of log p(a|s)
   - Proves that the weight vector(above) is the direction of steepest descent with respect to the expectation of the fisher information matrix(natural policy gradient)
   - Implicitly shows(first line of Theorem 3 proof) that the natural policy gradient is a linear approximation of policies with respect to policy parameters
   - Suggests a REINFORCE-style algorithm using the natural gradient
