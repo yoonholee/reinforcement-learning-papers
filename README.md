@@ -110,6 +110,7 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
   - Elinimates the instability of adding two numbers of different scale(V is usually much larger than A)
   - The induced policy can be computed by using only the A portion of the network
   - Updates actions more frequently than a single-stream DQN, where only a single Q value is updated
+  - Only works for finite action spaces
   - Arguably the first major breakthrough in network architectures specifically for deep RL
   
 
