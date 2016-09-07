@@ -79,7 +79,7 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
   - Closer to supervised learning than reinforcement learning, since the algorithm never acts
   
 ### Playing Atari with Deep Reinforcement Learning [[NIPS 2014 Deep Learning Workshop]](https://arxiv.org/pdf/1312.5602.pdf)
-  - Volodymyr Ming, Koray Kavukcuoglu, David Silve, Alex Graves, Ioannis Antonoglou, Daan Wierstra, Martin Riedmiller
+  - Volodymyr Minh, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, Martin Riedmiller
   - Proposes using a deep convolutional network for Q-learning of Atari games
   - Uses experience replay(similar [NFQ](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/README.md#neural-fitted-q-iteration---first-experiences-with-a-data-efficient-neural-reinforcement-learning-method-ecml-2005)), storing only the last N experience tuples while using an epsilon greedy policy
   - Compared to performing gradient descent every step, experience replay's distribution is less correlated
