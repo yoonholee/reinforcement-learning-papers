@@ -47,8 +47,8 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
 ### Trust Region Policy Optimization [[ICML 2015]](https://arxiv.org/pdf/1502.05477)
   - John Schulman, Sergey Levine, Philipp Moritz, Michael Jordan, Pieter Abbeel
   - Builds on [Approximately Optimal Approximate Reinforcement Learning](https://github.com/yoonholee/Reinforcement-Learning-Survey#approximately-optimal-approximate-reinforcement-learning-icml-2002)
-  - Instead of using a linear mixture, TRPO uses average KL divergence to ensure that the next policy is sufficiently close to current policy(the algorithm approximates L linearly and KL divergence quadratically)
-  - The natural policy gradient has the same direction as TRPO; the difference is the step size choosing scheme of TRPO
+  - Instead of using a linear mixture, TRPO uses average KL divergence to ensure that the next policy is sufficiently close to current policy(in practice, approximate L linearly and KL divergence quadratically)
+  - The natural policy gradient has the same direction as TRPO; the difference is that TRPO chooses a step size based on the trust region defined by KL divergence
   - Empirical performance is comparable to state of the art in both robotic locomotion and atari games
   
 ### High-dimensional Continuous Control Using Generalized Advantage Functions [[ICLR 2016]](https://arxiv.org/pdf/1506.02438)
