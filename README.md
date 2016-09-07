@@ -18,7 +18,7 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
   - Sham Kakade, John Langford
   - Points out the inefficiency of policy gradients using two example MDPs(section 3.2)
   - Derives a conservative policy iteration scheme that finds a policy that is almost optimal(within epsilon) in polynomial(w.r.t. epsilon) time
-  - The key idea is that by using a mixture between the current policy and a greedily improved policy, we can prove that the value function improves
+  - The key idea is that we can get a provably improved policy by using a linear mixture between the current policy and the greedily improved policy
 
 ### A Natural Policy Gradient [[NIPS 2002]](http://papers.nips.cc/paper/2073-a-natural-policy-gradient.pdf)
   - Sham Kakade
