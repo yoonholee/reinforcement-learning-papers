@@ -72,6 +72,9 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
   - Proves the convergence of Q-Learning to optimal Q values given some mild regulatory conditions
   - Gives a similar proof for TD(lambda)
   
+### Neural Fitted Q Iteration - First Experiences with a Data Efficient Neural Reinforcement Learning Method [[ECML 2005]](http://ml.informatik.uni-freiburg.de/_media/publications/rieecml05.pdf)
+  - Martin Riedmiller
+  - Proposes using a neural network for Q-learning
 
 ## Imitation Learning
 
