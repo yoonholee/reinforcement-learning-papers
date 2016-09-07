@@ -24,7 +24,6 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
   - Sham Kakade
   - Parameterizes Q(s,a) as a weighted sum of log p(a|s)
   - Proves that the weight vector(above) is the direction of steepest descent with respect to the expectation of the fisher information matrix(natural policy gradient)
-  - Implicitly shows(first line of Theorem 3 proof) that the natural policy gradient is a linear approximation of policies with respect to policy parameters
   - Suggests a REINFORCE-style algorithm using the natural gradient
   
 ### Natural Actor-Critic [[Neurocomputing 2008]] (http://ac.els-cdn.com/S0925231208000532/1-s2.0-S0925231208000532-main.pdf?_tid=5001927e-69ce-11e6-87f9-00000aacb35f&acdnat=1472024730_f49e79f185266d4824826941cec13967)
