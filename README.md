@@ -62,7 +62,16 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
   - Google Deepmind(Timothy P. Lillicrap, Jonathan J. Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver, Daan Wierstra)
   - Videos available [here](https://goo.gl/J4PIAz)
   - Suggests DDPG, which improves the actor-critic algorithm in [Deterministic Policy Gradient Algorithms](https://github.com/yoonholee/Reinforcement-Learning-Survey#deterministic-policy-gradient-algorithms-icml-2014) by using a DQN as the critic
-  - Empirically shown to be far more efficient than DQN
+  - Empirically shown to be more efficient than DQN
+  
+### Dueling Network Architectures for Deep Reinforcement Learning [[ICML 2016]](https://arxiv.org/pdf/1511.06581.pdf)
+  - Ziyu Wang, Tom Schaul, Matteo Hessel, Hado van Hasselt, Marc Lanctot, Nando de Freitas
+  - ICML 2016 Best Paper
+  - Attaches 2 estimators to DQN, respectively representing V(value function) and A(advantage function)
+  - Elinimates the instability of adding two numbers of different scale(V is usually much larger than A)
+  - The induced policy can be computed by using only the A portion of the network
+  - Updates actions more frequently than a single-stream DQN, where only a single Q value is updated
+  - Arguably the first major breakthrough in network architectures specifically for deep RL
  
 
 ## Q Learning
