@@ -67,7 +67,7 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
 
 ## Q Learning
 
-### On the Convergence of Stochastic Iterative Dynamic Programming Algorithms [[NIPS 1994]](http://papers.nips.cc/paper/764-convergence-of-stochastic-iterative-dynamic-programming-algorithms.pdf)
+### Convergence of Stochastic Iterative Dynamic Programming Algorithms [[NIPS 1994]](http://papers.nips.cc/paper/764-convergence-of-stochastic-iterative-dynamic-programming-algorithms.pdf)
   - Tommi Jaakkola, Michael I. Jordan, Satinder P. Singh
   - Proves the convergence of Q-Learning to optimal Q values given some mild regulatory conditions
   - Gives a similar proof for TD(lambda)
