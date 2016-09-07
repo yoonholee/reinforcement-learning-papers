@@ -96,6 +96,13 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
   - Suggests using 2 separate Q Networks(Double DQN) and randomly using one for selection and the other for evaluation
   - Empirically shows that Double DQN outperforms DQN
   
+### Prioritized Experience Replay [[ICLR 2016]](https://arxiv.org/pdf/1511.05952.pdf)
+  - Tom Schaul, John Quan, Ioannis Antonoglou, David Silver
+  - Samples (s,a,r,s') tuples with probability proportional to their TD error
+  - Uses a 'sum-tree' data structure to perform this quickly, where the value of a parent node is the sum of its children
+  - Uses importance sampling weights to counteract the change in state distribution
+  - Clearly inspired by prioritized sweeping
+  
 
 ## Imitation Learning
 
