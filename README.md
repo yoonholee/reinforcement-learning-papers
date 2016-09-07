@@ -90,6 +90,12 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
   - Mentions multiple times that a scheme similar to prioritized sweeping would speed up convergence, which is exactly [Prioritized Experience Replay]()
   - Points out a scheme similar to experience replay happens in the hippocampus of the mammalian brain
   
+### Deep Reinforcement Learning with Double Q-Learning [[AAAI 2016]](https://arxiv.org/pdf/1509.06461.pdf)
+  - Hado van Hasselt, Arthur Guez, David Silver
+  - Points out the overoptimism of [DQN](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/README.md#playing-atari-with-deep-reinforcement-learning-nips-2014-deep-learning-workshop) due to using the same Q values for selecting and evaluating an action
+  - Suggests using 2 separate Q Networks(Double DQN) and randomly using one for selection and the other for evaluation
+  - Empirically shows that Double DQN outperforms DQN
+  
 
 ## Imitation Learning
 
