@@ -19,21 +19,21 @@
   
 ### Deep Reinforcement Learning with Double Q-Learning [[AAAI 2016]](https://arxiv.org/pdf/1509.06461.pdf)
   - Hado van Hasselt, Arthur Guez, David Silver
-  - Points out the overoptimism of [DQN](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/README.md#playing-atari-with-deep-reinforcement-learning-nips-2014-deep-learning-workshop) in some actions due to using the same Q values for selecting and evaluating an action
+  - Points out the overoptimism of [DQN](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/q_learning.md#playing-atari-with-deep-reinforcement-learning-nips-2014-deep-learning-workshop) in some actions due to using the same Q values for selecting and evaluating an action
   - Suggests using 2 separate Q Networks(hence the name Double DQN) and randomly using one for selection and the other for evaluation
   - Empirically shows that Double DQN outperforms DQN
   
 ### Human-level Control Through Deep Reinforcement Learning [[Nature 2015]](http://home.uchicago.edu/~arij/journalclub/papers/2015_Mnih_et_al.pdf)
   - Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei A. Rusu, Joel Veness, Marc G. Bellemare, Alex Graves, Martin Riedmiller, Andreas K. Fidjeland, Georg Ostrovski, Stig Petersen, Charles Beattie, Amir Sadik, Ioannis Antonoglou, Helen King, Dharshan Kumaran, Daan Wierstra, Shane Legg & Demis Hassabis
   - Fixes the network parameters for several rounds of gradient descent
-  - Mentions multiple times that a scheme similar to prioritized sweeping would speed up convergence, which is exactly [Prioritized Experience Replay](https://github.com/yoonholee/Reinforcement-Learning-Survey#prioritized-experience-replay-iclr-2016)
+  - Mentions multiple times that a scheme similar to prioritized sweeping would speed up convergence, which is exactly [Prioritized Experience Replay](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/q_learning.md#prioritized-experience-replay-iclr-2016)
   - Points out that a scheme similar to experience replay happens in the hippocampus of the mammalian brain
   
 ### Playing Atari with Deep Reinforcement Learning [[NIPS 2014 Deep Learning Workshop]](https://arxiv.org/pdf/1312.5602.pdf)
   - Volodymyr Minh, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, Martin Riedmiller
   - Proposes using a deep convolutional network for Q-learning
-  - Uses experience replay(similar to  [Neural Fitted Q Iteration](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/README.md#neural-fitted-q-iteration---first-experiences-with-a-data-efficient-neural-reinforcement-learning-method-ecml-2005)), storing only the last N experience tuples while using an epsilon greedy policy
-  - Difference with [Neural Fitted Q Iteration](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/README.md#neural-fitted-q-iteration---first-experiences-with-a-data-efficient-neural-reinforcement-learning-method-ecml-2005)) is that this is an off-policy learning algorithm where the network determines the policy
+  - Uses experience replay(similar to  [Neural Fitted Q Iteration](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/q_learning.md#neural-fitted-q-iteration---first-experiences-with-a-data-efficient-neural-reinforcement-learning-method-ecml-2005)), storing only the last N experience tuples while using an epsilon greedy policy
+  - Difference with [Neural Fitted Q Iteration](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/q_learning.md#neural-fitted-q-iteration---first-experiences-with-a-data-efficient-neural-reinforcement-learning-method-ecml-2005)) is that this is an off-policy learning algorithm where the network determines the policy
   - Compared to performing gradient descent every step, experience replay's distribution is less correlated
   
 ### Neural Fitted Q Iteration - First Experiences with a Data Efficient Neural Reinforcement Learning Method [[ECML 2005]](http://ml.informatik.uni-freiburg.de/_media/publications/rieecml05.pdf)
