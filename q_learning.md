@@ -6,21 +6,21 @@
   - Two-stream DQN, each representing V(value function) and A(advantage function)
   - Elinimates the instability of adding two numbers of different scale(V is usually much larger than A)
   - Updates actions more frequently than a single-stream DQN, where only a single Q value is updated for each observation
-  - Only works for finite action spaces
   - Implicitly splits the credit assignment problem into a recursive binary problem of "now or later"
   - Arguably the first major breakthrough in network architectures specifically for deep RL
+  - Only works for finite action spaces
   
 ### Prioritized Experience Replay [[ICLR 2016]](https://arxiv.org/pdf/1511.05952.pdf)
   - Tom Schaul, John Quan, Ioannis Antonoglou, David Silver
   - Samples (s,a,r,s') tuples with probability proportional to their TD error
   - Uses a 'sum-tree' data structure to perform this quickly, where the value of a parent node is the sum of its children
   - Uses importance sampling weights to counteract the change in state distribution
-  - Clearly inspired by prioritized sweeping
+  - Inspired by prioritized sweeping
   
 ### Deep Reinforcement Learning with Double Q-Learning [[AAAI 2016]](https://arxiv.org/pdf/1509.06461.pdf)
   - Hado van Hasselt, Arthur Guez, David Silver
-  - Points out the overoptimism of [DQN](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/q_learning.md#playing-atari-with-deep-reinforcement-learning-nips-2014-deep-learning-workshop) in some actions due to using the same Q values for selecting and evaluating an action
-  - Suggests using 2 separate Q Networks(hence the name Double DQN) and randomly using one for selection and the other for evaluation
+  - Points out that once [DQN](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/q_learning.md#playing-atari-with-deep-reinforcement-learning-nips-2014-deep-learning-workshop) overestimates a Q value, the overestimation 'spills over' to states that precede it
+  - Uses different Q networks for action selection and evaluation
   - Empirically shows that Double DQN outperforms DQN
   
 ### Human-level Control Through Deep Reinforcement Learning [[Nature 2015]](http://home.uchicago.edu/~arij/journalclub/papers/2015_Mnih_et_al.pdf)
