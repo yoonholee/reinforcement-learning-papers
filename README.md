@@ -5,7 +5,7 @@ This is a collection of my notes on reinforcement learning papers.
 Typo corrections, additional points, new papers etc are all very welcome. You can either make a pull request or email me at einet89[at]postech.ac.kr
 
 
-## Table of Contents
+## Topics
 
 - [Policy Gradient](https://github.com/yoonholee/Reinforcement-Learning-Survey#policy-gradient)
 - [Q-Learning](https://github.com/yoonholee/Reinforcement-Learning-Survey#q-learning)
@@ -69,11 +69,11 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
 ### Dueling Network Architectures for Deep Reinforcement Learning [[ICML 2016]](https://arxiv.org/pdf/1511.06581.pdf)
   - Ziyu Wang, Tom Schaul, Matteo Hessel, Hado van Hasselt, Marc Lanctot, Nando de Freitas
   - ICML 2016 Best Paper
-  - Attaches 2 estimators to DQN, respectively representing V(value function) and A(advantage function)
+  - Two-stream DQN, each representing V(value function) and A(advantage function)
   - Elinimates the instability of adding two numbers of different scale(V is usually much larger than A)
-  - The induced policy can be computed by using only the A portion of the network
-  - Updates actions more frequently than a single-stream DQN, where only a single Q value is updated
+  - Updates actions more frequently than a single-stream DQN, where only a single Q value is updated for each observation
   - Only works for finite action spaces
+  - Implicitly splits the credit assignment problem into a recursive binary problem of "now or later"
   - Arguably the first major breakthrough in network architectures specifically for deep RL
   
 ### Prioritized Experience Replay [[ICLR 2016]](https://arxiv.org/pdf/1511.05952.pdf)
