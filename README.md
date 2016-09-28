@@ -7,7 +7,7 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
 
 ## Topics
 
-- [papers link](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/PAPERS#policy-gradient)
+- [papers link](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/PAPERS.md#policy-gradient)
 - [Policy Gradient](https://github.com/yoonholee/Reinforcement-Learning-Survey#policy-gradient)
 - [Q-Learning](https://github.com/yoonholee/Reinforcement-Learning-Survey#q-learning)
 - [Imitation Learning](https://github.com/yoonholee/Reinforcement-Learning-Survey#imitation-learning)
