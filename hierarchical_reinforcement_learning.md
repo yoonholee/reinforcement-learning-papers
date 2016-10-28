@@ -9,3 +9,6 @@
   
 ###Learning Options in Reinforcement Learning[[ISARA 2002]](http://ftp.bstu.by/ai/To-dom/My_research/Papers-0/For-research/R-navigation/Grid-world/Good-one/stolle2002learning.pdf)
   - Martin Stolle, Doina Precup
+  
+###Learning Macro-Actions in Reinforcement learning[[NIPS 1998]](https://papers.nips.cc/paper/1586-learning-macro-actions-in-reinforcement-learning.pdf)
+  - Jette Randløv	
