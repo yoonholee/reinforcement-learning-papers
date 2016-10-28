@@ -33,6 +33,9 @@
   - Periodically fixes network parameters for stability
   - Mentions multiple times that a scheme similar to prioritized sweeping would speed up convergence, which is exactly [Prioritized Experience Replay](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/q_learning.md#prioritized-experience-replay-iclr-2016)
   
+### Deep Recurrent Q-Learning for Partially Observable MDPs [[arxiv 2015]](https://arxiv.org/pdf/1507.06527v3.pdf)
+  - Matthew Hausknecht, Peter Stone
+  
 ### Neural Fitted Q Iteration - First Experiences with a Data Efficient Neural Reinforcement Learning Method [[ECML 2005]](http://ml.informatik.uni-freiburg.de/_media/publications/rieecml05.pdf)
   - Martin Riedmiller
   - Proposes using a neural network for Q-learning
