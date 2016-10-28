@@ -1,8 +1,11 @@
 ## Hierarchical Reinforcement Learning
 
 
-###Towards Deep Symbolic Reinforcement Learning[[2016]](https://arxiv.org/pdf/1609.05518v2.pdf)
+###Towards Deep Symbolic Reinforcement Learning[[arxiv 2016]](https://arxiv.org/pdf/1609.05518v2.pdf)
   - Marta Garnelo, Kai Arulkumaran, Murray Shanahan
+  
+###Reward Mapping for Transfer in Long-Lived Agents[[NIPS 2013]](https://papers.nips.cc/paper/5191-reward-mapping-for-transfer-in-long-lived-agents.pdf)
+  - Xiaoxiao Guo, Satinder Singh, Richard Lewis
 
 ###Intrinsically Motivated Reinforcement Learning[[NIPS 2004]](http://web.eecs.umich.edu/~baveja/Papers/FinalNIPSIMRL.pdf)
   - Satinder Singh, Andrew Barto, Nuttapong Chentanez
