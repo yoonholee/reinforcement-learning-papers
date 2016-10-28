@@ -1,6 +1,9 @@
 ## Policy Gradient
 
 
+### Mastering the game of Go with deep neural networks and tree search [[Nature 2016]] (http://www.nature.com/nature/journal/v529/n7587/pdf/nature16961.pdf)
+  - David Silver et al
+
 ### Continuous Control with Deep Reinforcement Learning [[ICLR 2016]](https://arxiv.org/pdf/1509.02971)
   - Google Deepmind(Timothy P. Lillicrap, Jonathan J. Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver, Daan Wierstra)
   - Videos available [here](https://goo.gl/J4PIAz)
