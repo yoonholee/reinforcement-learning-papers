@@ -1,6 +1,9 @@
 ## Hierarchical Reinforcement Learning
 
 
+###Towards Deep Symbolic Reinforcement Learning[[2016]](https://arxiv.org/pdf/1609.05518v2.pdf)
+  - Marta Garnelo, Kai Arulkumaran, Murray Shanahan
+
 ###Intrinsically Motivated Reinforcement Learning[[NIPS 2004]](http://web.eecs.umich.edu/~baveja/Papers/FinalNIPSIMRL.pdf)
   - Satinder Singh, Andrew Barto, Nuttapong Chentanez
 
