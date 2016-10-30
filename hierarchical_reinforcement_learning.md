@@ -21,3 +21,5 @@
   
 ###Learning Macro-Actions in Reinforcement learning[[NIPS 1998]](https://papers.nips.cc/paper/1586-learning-macro-actions-in-reinforcement-learning.pdf)
   - Jette Randløv	
+  - Lets previous action influence the choice of action
+  - Defines modified Q-value which is a linear combination of Q(s_t, a_t) and Q(a_t-1, a_t)
