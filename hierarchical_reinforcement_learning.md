@@ -15,6 +15,7 @@
   
 ###Learning Options in Reinforcement Learning[[ISARA 2002]](http://ftp.bstu.by/ai/To-dom/My_research/Papers-0/For-research/R-navigation/Grid-world/Good-one/stolle2002learning.pdf)
   - Martin Stolle, Doina Precup
+  - Learns options by randomly specifying a task and making the most frequently visited state the termination condition of an option.
   
 ###Between MDPs and semi-MDPs: A Framework for Temporal Abstraction in Reinforcement Learning[[Artificial Intelligence Journal 1999]](http://www-anw.cs.umass.edu/~barto/courses/cs687/Sutton-Precup-Singh-AIJ99.pdf)
   - Richard Sutton, Doina Precup, Satinder Singh
