@@ -18,6 +18,12 @@
   
 ###Between MDPs and semi-MDPs: A Framework for Temporal Abstraction in Reinforcement Learning[[Artificial Intelligence Journal 1999]](http://www-anw.cs.umass.edu/~barto/courses/cs687/Sutton-Precup-Singh-AIJ99.pdf)
   - Richard Sutton, Doina Precup, Satinder Singh
+  - Defines an option as a policy with a termination and initiation condition
+  - Proves that using options instead of only the primitive actions on an MDP can be viewed as an SMDP problem
+  - Proves that allowing interruption of options increases V-value
+  - Introduces an option model learning algorithm
+  - Defines V- and Q- values for options and proves convergence of option Q-learning
+  - Gives example of gridworld where predefined options shortens learning
   
 ###Learning Macro-Actions in Reinforcement learning[[NIPS 1998]](https://papers.nips.cc/paper/1586-learning-macro-actions-in-reinforcement-learning.pdf)
   - Jette Randløv	
