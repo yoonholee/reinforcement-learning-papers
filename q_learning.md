@@ -35,6 +35,8 @@
   
 ### Deep Recurrent Q-Learning for Partially Observable MDPs [[arxiv 2015]](https://arxiv.org/pdf/1507.06527v3.pdf)
   - Matthew Hausknecht, Peter Stone
+  - Attaches an LSTM to a standard DQN, so that it can learn even with only timestep as input
+  - Experiments show that this is superior to DQN in an env where at each timestep, the state is obscured with probability 1/2
   
 ### Neural Fitted Q Iteration - First Experiences with a Data Efficient Neural Reinforcement Learning Method [[ECML 2005]](http://ml.informatik.uni-freiburg.de/_media/publications/rieecml05.pdf)
   - Martin Riedmiller
