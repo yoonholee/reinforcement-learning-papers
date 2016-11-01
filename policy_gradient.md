@@ -3,9 +3,10 @@
 
 ### Mastering the game of Go with deep neural networks and tree search [[Nature 2016]] (http://www.nature.com/nature/journal/v529/n7587/pdf/nature16961.pdf)
   - David Silver et al.
+  - 
 
 ### Continuous Control with Deep Reinforcement Learning [[ICLR 2016]](https://arxiv.org/pdf/1509.02971)
-  - Google Deepmind(Timothy P. Lillicrap, Jonathan J. Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver, Daan Wierstra)
+  - Timothy P. Lillicrap et al.
   - Videos available [here](https://goo.gl/J4PIAz)
   - Suggests DDPG, which improves the actor-critic algorithm in [Deterministic Policy Gradient Algorithms](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/policy_gradient.md#deterministic-policy-gradient-algorithms-icml-2014) by using a DQN as the critic
   - Empirically shown to be more efficient than DQN
