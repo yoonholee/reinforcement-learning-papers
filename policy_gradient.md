@@ -5,7 +5,7 @@
   - David Silver et al.
   - Use RL to play Go
   - Core algorithm is monte carlo tree search using a trained policy network to get action probabilities
-  - Leaf nodes are evaluated using a both fast rollout policy network and a trained value network
+  - Leaf nodes are evaluated using both a fast rollout policy network and a trained value network
 
 ### Continuous Control with Deep Reinforcement Learning [[ICLR 2016]](https://arxiv.org/pdf/1509.02971)
   - Timothy P. Lillicrap et al.
