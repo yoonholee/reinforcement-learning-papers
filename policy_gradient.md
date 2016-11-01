@@ -3,7 +3,9 @@
 
 ### Mastering the game of Go with deep neural networks and tree search [[Nature 2016]] (http://www.nature.com/nature/journal/v529/n7587/pdf/nature16961.pdf)
   - David Silver et al.
-  - 
+  - Use RL to play Go
+  - Core algorithm is monte carlo tree search using a trained policy network to get action probabilities
+  - Leaf nodes are evaluated using a both fast rollout policy network and a trained value network
 
 ### Continuous Control with Deep Reinforcement Learning [[ICLR 2016]](https://arxiv.org/pdf/1509.02971)
   - Timothy P. Lillicrap et al.
