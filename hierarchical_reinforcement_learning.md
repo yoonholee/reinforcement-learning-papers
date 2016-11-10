@@ -1,9 +1,12 @@
 ## Hierarchical Reinforcement Learning
 
-
+  
 ###Towards Deep Symbolic Reinforcement Learning [[arxiv 2016]](https://arxiv.org/pdf/1609.05518v2.pdf)
   - Marta Garnelo, Kai Arulkumaran, Murray Shanahan
   - Suggests a pipeline(encoder, symbolic layer, RL layer) to get symbolic representations of envs with images as states
+  
+###Variational Information Maximisation for Intrinsically Motivated Reinforcement Learning [[NIPS 2015]](https://arxiv.org/pdf/1509.08731v1.pdf)
+  - Shakir Mohamed, Danilo Jimenez Rezende
   
 ###Reward Mapping for Transfer in Long-Lived Agents [[NIPS 2013]](https://papers.nips.cc/paper/5191-reward-mapping-for-transfer-in-long-lived-agents.pdf)
   - Xiaoxiao Guo, Satinder Singh, Richard Lewis
