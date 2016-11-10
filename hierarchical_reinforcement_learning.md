@@ -17,7 +17,7 @@
 ###Intrinsically Motivated Reinforcement Learning [[NIPS 2004]](http://web.eecs.umich.edu/~baveja/Papers/FinalNIPSIMRL.pdf)
   - Satinder Singh, Andrew Barto, Nuttapong Chentanez
   - Using the concept of intrinsic motivation, suggests that there is value in predefining options independently of the task
-  - The 'implementation' of intrinsic motivation is done through 'salient events', which are states that the agent tries to learn an option to achieve
+  - The agent creates options to achieve 'salient events', or events that are predetermined to be inherently interesting to the agent
 
 ###Recent Advances in Hierarchical Reinforcement Learning [[DEDS 2003]](http://www-anw.cs.umass.edu/pubs/2003/barto_m_DEDS03.pdf)
   - Andrew Barto, Sridhar Mahadevan
