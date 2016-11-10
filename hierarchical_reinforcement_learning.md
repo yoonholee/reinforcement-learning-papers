@@ -8,6 +8,9 @@
 ###Variational Information Maximisation for Intrinsically Motivated Reinforcement Learning [[NIPS 2015]](https://arxiv.org/pdf/1509.08731v1.pdf)
   - Shakir Mohamed, Danilo Jimenez Rezende
   
+###Empowerment–an introduction [[Guided Self-Organization: Inception, 2014]](https://arxiv.org/pdf/1310.1863.pdf)
+  - Christoph Salge, Cornelius Glackin, Daniel Polani
+  
 ###Reward Mapping for Transfer in Long-Lived Agents [[NIPS 2013]](https://papers.nips.cc/paper/5191-reward-mapping-for-transfer-in-long-lived-agents.pdf)
   - Xiaoxiao Guo, Satinder Singh, Richard Lewis
 
