@@ -2,6 +2,9 @@
 
 ###Stochastic Neural Networks for Hierarchical Reinforcement Learning [[review ICLR 2017]](http://openreview.net/pdf?id=B1oK8aoxe)
   - Carlos Florensa, Yan Duan, Pieter Abbeel
+  - Uses a stochastic neural network to learn skills before task is presented(pre-training)
+  - Trains skills by maximizing channel capacity
+  - This algorithm solves continuous control tasks that were previously unsolved
 
 ###Strategic Attentive Writer for Learning Macro-Actions [[NIPS 2016]](https://arxiv.org/pdf/1606.04695v1.pdf)
   - Alexander (Sasha) Vezhnevets, Volodymyr Mnih, John Agapiou, Simon Osindero, Alex Graves, Oriol Vinyals, Koray Kavukcuoglu
