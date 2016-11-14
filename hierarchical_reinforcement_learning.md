@@ -1,5 +1,8 @@
 ## Hierarchical Reinforcement Learning
 
+###Stochastic Neural Networks for Hierarchical Reinforcement Learning [[review ICLR 2017]]()
+  - Carlos Florensa, Yan Duan, Pieter Abbeel
+
 ###Strategic Attentive Writer for Learning Macro-Actions [[NIPS 2016]](https://arxiv.org/pdf/1606.04695v1.pdf)
   - Alexander (Sasha) Vezhnevets, Volodymyr Mnih, John Agapiou, Simon Osindero, Alex Graves, Oriol Vinyals, Koray Kavukcuoglu
 
@@ -7,7 +10,6 @@
   - Pierre-Luc Bacon, Jean Harb, Doina Precup
   
 ###Hierarchical Deep Reinforcement Learning: Integrating Temporal Abstraction and Intrinsic Motivation [[NIPS 2016]](https://arxiv.org/pdf/1604.06057v2.pdf)
-
   - Tejas D. Kulkarni, Karthik R. Narasimhan, Ardavan Saeedi, Joshua B. Tenenbaum
 
 ###Towards Deep Symbolic Reinforcement Learning [[arxiv 2016]](https://arxiv.org/pdf/1609.05518v2.pdf)
