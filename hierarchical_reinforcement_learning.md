@@ -18,6 +18,8 @@
   
 ###Variational Information Maximisation for Intrinsically Motivated Reinforcement Learning [[NIPS 2015]](https://arxiv.org/pdf/1509.08731v1.pdf)
   - Shakir Mohamed, Danilo Jimenez Rezende
+  - Derives a variational inference algorithm for maximizing mutual information
+  - This is the first tractable algorithm capable of computing empowerment
   
 ###Empowerment–an introduction [[Guided Self-Organization: Inception, 2014]](https://arxiv.org/pdf/1310.1863.pdf)
   - Christoph Salge, Cornelius Glackin, Daniel Polani
