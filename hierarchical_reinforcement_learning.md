@@ -3,6 +3,9 @@
 ###Strategic Attentive Writer for Learning Macro-Actions [[NIPS 2016]](https://arxiv.org/pdf/1606.04695v1.pdf)
   - Alexander (Sasha) Vezhnevets, Volodymyr Mnih, John Agapiou, Simon Osindero, Alex Graves, Oriol Vinyals, Koray Kavukcuoglu
 
+###The Option-Critic Architecture [[arxiv 2016]](https://arxiv.org/pdf/1609.05140v1.pdf)
+  - Pierre-Luc Bacon, Jean Harb, Doina Precup
+
 ###Towards Deep Symbolic Reinforcement Learning [[arxiv 2016]](https://arxiv.org/pdf/1609.05518v2.pdf)
   - Marta Garnelo, Kai Arulkumaran, Murray Shanahan
   - Suggests a pipeline(encoder, symbolic layer, RL layer) to get symbolic representations of envs with images as states
