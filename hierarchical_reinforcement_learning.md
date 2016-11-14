@@ -30,9 +30,6 @@
   - Christoph Salge, Cornelius Glackin, Daniel Polani
   - Gives evolutional justification for the concept of empowerment-having more control over the environment is desirable
   - Formally defines empowerment as the channel capacity between actions and future states
-  
-###Reward Mapping for Transfer in Long-Lived Agents [[NIPS 2013]](https://papers.nips.cc/paper/5191-reward-mapping-for-transfer-in-long-lived-agents.pdf)
-  - Xiaoxiao Guo, Satinder Singh, Richard Lewis
 
 ###Intrinsically Motivated Reinforcement Learning [[NIPS 2004]](http://web.eecs.umich.edu/~baveja/Papers/FinalNIPSIMRL.pdf)
   - Satinder Singh, Andrew Barto, Nuttapong Chentanez
