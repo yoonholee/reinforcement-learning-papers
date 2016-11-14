@@ -1,10 +1,12 @@
 ## Hierarchical Reinforcement Learning
 
-###Stochastic Neural Networks for Hierarchical Reinforcement Learning [[review ICLR 2017]]()
+###Stochastic Neural Networks for Hierarchical Reinforcement Learning [[review ICLR 2017]](http://openreview.net/pdf?id=B1oK8aoxe)
   - Carlos Florensa, Yan Duan, Pieter Abbeel
 
 ###Strategic Attentive Writer for Learning Macro-Actions [[NIPS 2016]](https://arxiv.org/pdf/1606.04695v1.pdf)
   - Alexander (Sasha) Vezhnevets, Volodymyr Mnih, John Agapiou, Simon Osindero, Alex Graves, Oriol Vinyals, Koray Kavukcuoglu
+  - Develops an algorithm that learns to plan sequences of actions in addition to their level of commitment
+  - Only works for finite action spaces and a predetermined timeline
 
 ###The Option-Critic Architecture [[arxiv 2016]](https://arxiv.org/pdf/1609.05140v1.pdf)
   - Pierre-Luc Bacon, Jean Harb, Doina Precup
