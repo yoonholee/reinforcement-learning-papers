@@ -10,6 +10,10 @@
   - Arguably the first major breakthrough in network architectures specifically for deep RL
   - Only works for finite action spaces
   
+### Deep Exploration via Bootstrapped DQN [[NIPS 2016]](https://arxiv.org/pdf/1602.04621v3.pdf)
+
+  - Ian Osband, Charles Blundell, Alexander Pritzel, Benjamin Van Roy
+  
 ### Prioritized Experience Replay [[ICLR 2016]](https://arxiv.org/pdf/1511.05952.pdf)
   - Tom Schaul, John Quan, Ioannis Antonoglou, David Silver
   - Samples (s,a,r,s') tuples with probability proportional to their TD error
