@@ -5,6 +5,10 @@
 
 ###The Option-Critic Architecture [[arxiv 2016]](https://arxiv.org/pdf/1609.05140v1.pdf)
   - Pierre-Luc Bacon, Jean Harb, Doina Precup
+  
+###Hierarchical Deep Reinforcement Learning: Integrating Temporal Abstraction and Intrinsic Motivation [[NIPS 2016]](https://arxiv.org/pdf/1604.06057v2.pdf)
+
+  - Tejas D. Kulkarni, Karthik R. Narasimhan, Ardavan Saeedi, Joshua B. Tenenbaum
 
 ###Towards Deep Symbolic Reinforcement Learning [[arxiv 2016]](https://arxiv.org/pdf/1609.05518v2.pdf)
   - Marta Garnelo, Kai Arulkumaran, Murray Shanahan
