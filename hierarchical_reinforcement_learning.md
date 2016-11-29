@@ -1,11 +1,25 @@
 ## Hierarchical Reinforcement Learning
+###Surprise-based Intrinsic Motivation for Deep Reinforcement Learning [[review ICLR 2017]](https://openreview.net/pdf?id=Bk8aOm9xl)
+  - Joshua Achiam & Shankar Sastry
+  
+###Exploration: A Study of Count-Based Exploration for Deep Reinforcement Learning[[review ICLR 2017]](https://arxiv.org/pdf/1611.04717v1.pdf)
 
+  - Haoran Tang, Rein Houthooft, Davis Foote, Adam Stooke, Xi Chen, Yan Duan, John Schulman, Filip De Turck, Pieter Abbeel
+###Options Discovery with Budgeted Reinforcement Learning [[review ICLR 2017]](https://arxiv.org/pdf/1611.06824v1.pdf)
+  - Aurélia Léon, Ludovic Denoyer
+  
 ###Stochastic Neural Networks for Hierarchical Reinforcement Learning [[review ICLR 2017]](http://openreview.net/pdf?id=B1oK8aoxe)
   - Carlos Florensa, Yan Duan, Pieter Abbeel
   - Uses a stochastic neural network to learn skills before task is presented(pre-training)
   - Trains skills by maximizing channel capacity
   - This algorithm solves continuous control tasks that were previously unsolved
 
+###Unifying Count-Based Exploration and Intrinsic Motivation [[NIPS 2016]](https://arxiv.org/pdf/1606.01868v2.pdf)
+  - Marc G. Bellemare, Sriram Srinivasan, Georg Ostrovski, Tom Schaul, David Saxton, Remi Munos
+  
+###Learning Purposeful Behaviour in the Absence of Rewards [[ICML 2016]](https://arxiv.org/pdf/1605.07700v1.pdf)
+  - Marlos C. Machado, Michael Bowling
+  
 ###Strategic Attentive Writer for Learning Macro-Actions [[NIPS 2016]](https://arxiv.org/pdf/1606.04695v1.pdf)
   - Alexander (Sasha) Vezhnevets, Volodymyr Mnih, John Agapiou, Simon Osindero, Alex Graves, Oriol Vinyals, Koray Kavukcuoglu
   - Develops an algorithm that learns to plan sequences of actions in addition to their level of commitment
