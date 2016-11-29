@@ -1,5 +1,12 @@
 ## Reinforcement Learning
-
+### Asynchronous Methods for Deep Reinforcement Learning [[]]()
+  - Volodymyr Mnih et al.
+### Massively Parallel Methods for Deep Reinforcement Learning [[]]()
+  - Arun Nair et al.
+### PGQ: Combining policy gradient and Q-learning [[]]()
+  - Brendan O'Donoghue, Remi Munos, Koray Kavukcuoglu, Volodymyr Mnih
+### Q-Prop: Sample-Efficient Policy Gradient with An Off-Policy Critic [[review ICLR 2017]]()
+  - Shixiang Gu, Timothy Lillicrap, Zoubin Ghahramani, Richard E. Turner, Sergey Levine
 ### Action-Conditional Video Prediction using Deep Networks in Atari Games [[NIPS 2015]](https://arxiv.org/pdf/1507.08750v2.pdf)
   - Junhyuk Oh, Xiaoxiao Guo, Honglak Lee, Richard Lewis, Satinder Singh
   
