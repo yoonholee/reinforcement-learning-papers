@@ -16,10 +16,6 @@
   
 ###Hierarchical Deep Reinforcement Learning: Integrating Temporal Abstraction and Intrinsic Motivation [[NIPS 2016]](https://arxiv.org/pdf/1604.06057v2.pdf)
   - Tejas D. Kulkarni, Karthik R. Narasimhan, Ardavan Saeedi, Joshua B. Tenenbaum
-
-###Towards Deep Symbolic Reinforcement Learning [[arxiv 2016]](https://arxiv.org/pdf/1609.05518v2.pdf)
-  - Marta Garnelo, Kai Arulkumaran, Murray Shanahan
-  - Suggests a pipeline(encoder, symbolic layer, RL layer) to get symbolic representations of envs with images as states
   
 ###Variational Information Maximisation for Intrinsically Motivated Reinforcement Learning [[NIPS 2015]](https://arxiv.org/pdf/1509.08731v1.pdf)
   - Shakir Mohamed, Danilo Jimenez Rezende
