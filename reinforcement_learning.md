@@ -1,14 +1,10 @@
 ## Reinforcement Learning
-### Asynchronous Methods for Deep Reinforcement Learning [[]]()
-  - Volodymyr Mnih et al.
-### Massively Parallel Methods for Deep Reinforcement Learning [[]]()
-  - Arun Nair et al.
-### PGQ: Combining policy gradient and Q-learning [[]]()
+  
+### PGQ: Combining policy gradient and Q-learning [[review ICLR 2017]](https://arxiv.org/pdf/1611.01626v1.pdf)
   - Brendan O'Donoghue, Remi Munos, Koray Kavukcuoglu, Volodymyr Mnih
-### Q-Prop: Sample-Efficient Policy Gradient with An Off-Policy Critic [[review ICLR 2017]]()
+  
+### Q-Prop: Sample-Efficient Policy Gradient with An Off-Policy Critic [[review ICLR 2017]](https://arxiv.org/pdf/1611.02247v2.pdf)
   - Shixiang Gu, Timothy Lillicrap, Zoubin Ghahramani, Richard E. Turner, Sergey Levine
-### Action-Conditional Video Prediction using Deep Networks in Atari Games [[NIPS 2015]](https://arxiv.org/pdf/1507.08750v2.pdf)
-  - Junhyuk Oh, Xiaoxiao Guo, Honglak Lee, Richard Lewis, Satinder Singh
   
 ### Mastering the game of Go with deep neural networks and tree search [[Nature 2016]] (http://www.nature.com/nature/journal/v529/n7587/pdf/nature16961.pdf)
   - David Silver et al.
@@ -56,6 +52,14 @@
   - Points out that once [DQN](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/q_learning.md#playing-atari-with-deep-reinforcement-learning-nips-2014-deep-learning-workshop) overestimates a Q value, the overestimation 'spills over' to states that precede it
   - Uses different Q networks for action selection and evaluation
   - Empirically shows that Double DQN outperforms DQN
+### Asynchronous Methods for Deep Reinforcement Learning [[ICML 2016]](https://arxiv.org/pdf/1602.01783v2.pdf)
+  - Volodymyr Mnih et al.
+  
+### Massively Parallel Methods for Deep Reinforcement Learning [[ICML workshop 2015]](https://arxiv.org/pdf/1507.04296v2.pdf)
+  - Arun Nair et al.
+  
+### Action-Conditional Video Prediction using Deep Networks in Atari Games [[NIPS 2015]](https://arxiv.org/pdf/1507.08750v2.pdf)
+  - Junhyuk Oh, Xiaoxiao Guo, Honglak Lee, Richard Lewis, Satinder Singh
   
 ### Human-level Control Through Deep Reinforcement Learning [[Nature 2015]](http://home.uchicago.edu/~arij/journalclub/papers/2015_Mnih_et_al.pdf)
   - Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei A. Rusu, Joel Veness, Marc G. Bellemare, Alex Graves, Martin Riedmiller, Andreas K. Fidjeland, Georg Ostrovski, Stig Petersen, Charles Beattie, Amir Sadik, Ioannis Antonoglou, Helen King, Dharshan Kumaran, Daan Wierstra, Shane Legg & Demis Hassabis
