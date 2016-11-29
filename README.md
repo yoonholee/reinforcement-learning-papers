@@ -7,7 +7,5 @@ Typo corrections, additional points, new papers etc are all very welcome. You ca
 
 ## Topics
 
-- [Policy Gradient](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/policy_gradient.md)
-- [Q-Learning](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/q_learning.md)
-- [Imitation Learning](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/imitation_learning.md)
+- [Reinforcement Learning](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/reinforcement-learning.md)
 - [Hierarchical Reinforcement Learning](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/hierarchical_reinforcement_learning.md)
