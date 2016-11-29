@@ -1,5 +1,7 @@
 ## Reinforcement Learning
 
+### Action-Conditional Video Prediction using Deep Networks in Atari Games [[NIPS 2015]](https://arxiv.org/pdf/1507.08750v2.pdf)
+  - Junhyuk Oh, Xiaoxiao Guo, Honglak Lee, Richard Lewis, Satinder Singh
   
 ### Mastering the game of Go with deep neural networks and tree search [[Nature 2016]] (http://www.nature.com/nature/journal/v529/n7587/pdf/nature16961.pdf)
   - David Silver et al.
