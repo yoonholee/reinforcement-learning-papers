@@ -4,7 +4,7 @@
 ### Surprise-based Intrinsic Motivation for Deep Reinforcement Learning [[review ICLR 2017]](https://openreview.net/pdf?id=Bk8aOm9xl)
   - Joshua Achiam & Shankar Sastry
   
-### Exploration: A Study of Count-Based Exploration for Deep Reinforcement Learning[[review ICLR 2017]](https://arxiv.org/pdf/1611.04717v1.pdf)
+### #Exploration: A Study of Count-Based Exploration for Deep Reinforcement Learning[[review ICLR 2017]](https://arxiv.org/pdf/1611.04717v1.pdf)
   - Haoran Tang, Rein Houthooft, Davis Foote, Adam Stooke, Xi Chen, Yan Duan, John Schulman, Filip De Turck, Pieter Abbeel
   - Uses hashing on states to obtain an MBIE-EB style exploration bonus
   
