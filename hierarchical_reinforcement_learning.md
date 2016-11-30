@@ -19,8 +19,10 @@
 ### Unifying Count-Based Exploration and Intrinsic Motivation [[NIPS 2016]](https://arxiv.org/pdf/1606.01868v2.pdf)
   - Marc G. Bellemare, Sriram Srinivasan, Georg Ostrovski, Tom Schaul, David Saxton, Remi Munos
   
-### Learning Purposeful Behaviour in the Absence of Rewards [[ICML 2016]](https://arxiv.org/pdf/1605.07700v1.pdf)
+### Learning Purposeful Behaviour in the Absence of Rewards [[ICML workshop 2016]](https://arxiv.org/pdf/1605.07700v1.pdf)
   - Marlos C. Machado, Michael Bowling
+  - Uses SVD to discover 'eigenpurposes': patterns in temporal difference
+  - Learns 'eigenbehaviours': policies that maximize the occurrence of each eigenpurpose
   
 ### Strategic Attentive Writer for Learning Macro-Actions [[NIPS 2016]](https://arxiv.org/pdf/1606.04695v1.pdf)
   - Alexander (Sasha) Vezhnevets, Volodymyr Mnih, John Agapiou, Simon Osindero, Alex Graves, Oriol Vinyals, Koray Kavukcuoglu
