@@ -9,6 +9,7 @@
   
 ### Options Discovery with Budgeted Reinforcement Learning [[review ICLR 2017]](https://arxiv.org/pdf/1611.06824v1.pdf)
   - Aurélia Léon, Ludovic Denoyer
+  - Sidesteps the difficulty in learning termination conditions of options by introducing a penalty for using full observation
   
 ### Stochastic Neural Networks for Hierarchical Reinforcement Learning [[review ICLR 2017]](http://openreview.net/pdf?id=B1oK8aoxe)
   - Carlos Florensa, Yan Duan, Pieter Abbeel
@@ -31,10 +32,6 @@
   - Alexander (Sasha) Vezhnevets, Volodymyr Mnih, John Agapiou, Simon Osindero, Alex Graves, Oriol Vinyals, Koray Kavukcuoglu
   - Develops an algorithm that learns to plan sequences of actions in addition to their level of commitment
   - Only works for finite action spaces and a predetermined timeline
-
-### The Option-Critic Architecture [[arxiv 2016]](https://arxiv.org/pdf/1609.05140v1.pdf)
-  - Pierre-Luc Bacon, Jean Harb, Doina Precup
-  - Derives policy gradient theorems for options
   
 ### Hierarchical Deep Reinforcement Learning: Integrating Temporal Abstraction and Intrinsic Motivation [[NIPS 2016]](https://arxiv.org/pdf/1604.06057v2.pdf)
   - Tejas D. Kulkarni, Karthik R. Narasimhan, Ardavan Saeedi, Joshua B. Tenenbaum
@@ -45,6 +42,10 @@
   - Shakir Mohamed, Danilo Jimenez Rezende
   - Derives a variational inference algorithm for maximizing mutual information
   - The first tractable algorithm capable of computing empowerment
+
+### The Option-Critic Architecture [[NIPS workshop 2015]](https://arxiv.org/pdf/1609.05140v1.pdf)
+  - Pierre-Luc Bacon, Jean Harb, Doina Precup
+  - Derives policy gradient theorems for options
   
 ### Empowerment–an introduction [[Guided Self-Organization: Inception, 2014]](https://arxiv.org/pdf/1310.1863.pdf)
   - Christoph Salge, Cornelius Glackin, Daniel Polani
