@@ -18,6 +18,9 @@
 
 ### Unifying Count-Based Exploration and Intrinsic Motivation [[NIPS 2016]](https://arxiv.org/pdf/1606.01868v2.pdf)
   - Marc G. Bellemare, Sriram Srinivasan, Georg Ostrovski, Tom Schaul, David Saxton, Remi Munos
+  - Introduces 'pseudo-count': an approximation to count from an arbitrary density model
+  - Pseudo-count enables us to use count based algorithms on large or continuous state space MDPs
+  - Explores Montezuma's Revenge effectively(!)
   
 ### Learning Purposeful Behaviour in the Absence of Rewards [[ICML workshop 2016]](https://arxiv.org/pdf/1605.07700v1.pdf)
   - Marlos C. Machado, Michael Bowling
