@@ -1,6 +1,12 @@
 ## Hierarchical Reinforcement Learning
 
-
+  
+### Stochastic Neural Networks for Hierarchical Reinforcement Learning [[review ICLR 2017]](http://openreview.net/pdf?id=B1oK8aoxe)
+  - Carlos Florensa, Yan Duan, Pieter Abbeel
+  - Uses a stochastic neural network to learn skills before task is presented(pre-training)
+  - Trains skills by maximizing channel capacity
+  - This algorithm solves continuous control tasks that were previously unsolved
+  
 ### Surprise-based Intrinsic Motivation for Deep Reinforcement Learning [[review ICLR 2017]](https://openreview.net/pdf?id=Bk8aOm9xl)
   - Joshua Achiam & Shankar Sastry
   - Introduces an additional reward term proportional to how unexpected the state transition was to the agent's model
@@ -12,12 +18,6 @@
 ### Options Discovery with Budgeted Reinforcement Learning [[review ICLR 2017]](https://arxiv.org/pdf/1611.06824v1.pdf)
   - Aurélia Léon, Ludovic Denoyer
   - Sidesteps the difficulty in learning termination conditions of options by introducing a penalty for using full observation
-  
-### Stochastic Neural Networks for Hierarchical Reinforcement Learning [[review ICLR 2017]](http://openreview.net/pdf?id=B1oK8aoxe)
-  - Carlos Florensa, Yan Duan, Pieter Abbeel
-  - Uses a stochastic neural network to learn skills before task is presented(pre-training)
-  - Trains skills by maximizing channel capacity
-  - This algorithm solves continuous control tasks that were previously unsolved
 
 ### Unifying Count-Based Exploration and Intrinsic Motivation [[NIPS 2016]](https://arxiv.org/pdf/1606.01868v2.pdf)
   - Marc G. Bellemare, Sriram Srinivasan, Georg Ostrovski, Tom Schaul, David Saxton, Remi Munos
@@ -25,15 +25,15 @@
   - Pseudo-count enables us to use count based algorithms on large or continuous state space MDPs
   - Explores Montezuma's Revenge effectively(!)
   
-### Learning Purposeful Behaviour in the Absence of Rewards [[ICML workshop 2016]](https://arxiv.org/pdf/1605.07700v1.pdf)
-  - Marlos C. Machado, Michael Bowling
-  - Uses SVD to discover 'eigenpurposes': patterns in temporal difference
-  - Learns 'eigenbehaviours': policies that maximize the occurrence of each eigenpurpose
-  
 ### Strategic Attentive Writer for Learning Macro-Actions [[NIPS 2016]](https://arxiv.org/pdf/1606.04695v1.pdf)
   - Alexander (Sasha) Vezhnevets, Volodymyr Mnih, John Agapiou, Simon Osindero, Alex Graves, Oriol Vinyals, Koray Kavukcuoglu
   - Develops an algorithm that learns to plan sequences of actions in addition to their level of commitment
   - Only works for finite action spaces and a predetermined timeline
+  
+### Learning Purposeful Behaviour in the Absence of Rewards [[ICML workshop 2016]](https://arxiv.org/pdf/1605.07700v1.pdf)
+  - Marlos C. Machado, Michael Bowling
+  - Uses SVD to discover 'eigenpurposes': patterns in temporal difference
+  - Learns 'eigenbehaviours': policies that maximize the occurrence of each eigenpurpose
   
 ### Hierarchical Deep Reinforcement Learning: Integrating Temporal Abstraction and Intrinsic Motivation [[NIPS 2016]](https://arxiv.org/pdf/1604.06057v2.pdf)
   - Tejas D. Kulkarni, Karthik R. Narasimhan, Ardavan Saeedi, Joshua B. Tenenbaum
@@ -72,7 +72,7 @@
   - Defines an option as a policy with a termination and initiation condition
   - Proves that using options instead of only the primitive actions on an MDP is an SMDP problem
   - Proves that allowing interruption of options increases return
-  - Derives and roves convergence of option Q-learning
+  - Derives and proves convergence of option Q-learning
   - Shows an environment where predefined options considerably shortens learning
   
 ### Learning Macro-Actions in Reinforcement learning [[NIPS 1998]](https://papers.nips.cc/paper/1586-learning-macro-actions-in-reinforcement-learning.pdf)
