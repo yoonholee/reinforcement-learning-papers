@@ -29,6 +29,7 @@
 
 ### The Option-Critic Architecture [[arxiv 2016]](https://arxiv.org/pdf/1609.05140v1.pdf)
   - Pierre-Luc Bacon, Jean Harb, Doina Precup
+  - Derives policy gradient theorems for options
   
 ### Hierarchical Deep Reinforcement Learning: Integrating Temporal Abstraction and Intrinsic Motivation [[NIPS 2016]](https://arxiv.org/pdf/1604.06057v2.pdf)
   - Tejas D. Kulkarni, Karthik R. Narasimhan, Ardavan Saeedi, Joshua B. Tenenbaum
