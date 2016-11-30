@@ -6,6 +6,7 @@
   
 ### Exploration: A Study of Count-Based Exploration for Deep Reinforcement Learning[[review ICLR 2017]](https://arxiv.org/pdf/1611.04717v1.pdf)
   - Haoran Tang, Rein Houthooft, Davis Foote, Adam Stooke, Xi Chen, Yan Duan, John Schulman, Filip De Turck, Pieter Abbeel
+  - Uses hashing on states to obtain an MBIE-EB style exploration bonus
   
 ### Options Discovery with Budgeted Reinforcement Learning [[review ICLR 2017]](https://arxiv.org/pdf/1611.06824v1.pdf)
   - Aurélia Léon, Ludovic Denoyer
