@@ -1,4 +1,6 @@
 ## Hierarchical Reinforcement Learning
+
+
 ### Surprise-based Intrinsic Motivation for Deep Reinforcement Learning [[review ICLR 2017]](https://openreview.net/pdf?id=Bk8aOm9xl)
   - Joshua Achiam & Shankar Sastry
   
@@ -30,6 +32,8 @@
   
 ### Hierarchical Deep Reinforcement Learning: Integrating Temporal Abstraction and Intrinsic Motivation [[NIPS 2016]](https://arxiv.org/pdf/1604.06057v2.pdf)
   - Tejas D. Kulkarni, Karthik R. Narasimhan, Ardavan Saeedi, Joshua B. Tenenbaum
+  - Introduces h-DQN, a deep network version of the options framework
+  - Uses hardwired goals(similar to 'salient events' from Singh 2004)
   
 ### Variational Information Maximisation for Intrinsically Motivated Reinforcement Learning [[NIPS 2015]](https://arxiv.org/pdf/1509.08731v1.pdf)
   - Shakir Mohamed, Danilo Jimenez Rezende
