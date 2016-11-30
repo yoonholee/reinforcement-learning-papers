@@ -38,17 +38,17 @@
 ### Variational Information Maximisation for Intrinsically Motivated Reinforcement Learning [[NIPS 2015]](https://arxiv.org/pdf/1509.08731v1.pdf)
   - Shakir Mohamed, Danilo Jimenez Rezende
   - Derives a variational inference algorithm for maximizing mutual information
-  - This is the first tractable algorithm capable of computing empowerment
+  - The first tractable algorithm capable of computing empowerment
   
 ### Empowerment–an introduction [[Guided Self-Organization: Inception, 2014]](https://arxiv.org/pdf/1310.1863.pdf)
   - Christoph Salge, Cornelius Glackin, Daniel Polani
-  - Gives evolutional justification for the concept of empowerment-having more control over the environment is desirable
+  - Gives evolutional justification for the concept of empowerment: having more control over the environment is desirable
   - Formally defines empowerment as the channel capacity between actions and future states
 
 ### Intrinsically Motivated Reinforcement Learning [[NIPS 2004]](http://web.eecs.umich.edu/~baveja/Papers/FinalNIPSIMRL.pdf)
   - Satinder Singh, Andrew Barto, Nuttapong Chentanez
-  - Using the concept of intrinsic motivation, suggests that there is value in predefining options independently of the task
-  - The agent creates options to achieve 'salient events', or events that are predetermined to be inherently interesting to the agent
+  - Intrinsic motivation suggests that there is value in defining options independently of the task
+  - The agent creates options to achieve 'salient events': events that are predetermined to be inherently interesting to the agent
 
 ### Recent Advances in Hierarchical Reinforcement Learning [[DEDS 2003]](http://www-anw.cs.umass.edu/pubs/2003/barto_m_DEDS03.pdf)
   - Andrew Barto, Sridhar Mahadevan
@@ -61,11 +61,10 @@
 ### Between MDPs and semi-MDPs: A Framework for Temporal Abstraction in Reinforcement Learning [[Artificial Intelligence Journal 1999]](http://www-anw.cs.umass.edu/~barto/courses/cs687/Sutton-Precup-Singh-AIJ99.pdf)
   - Richard Sutton, Doina Precup, Satinder Singh
   - Defines an option as a policy with a termination and initiation condition
-  - Proves that using options instead of only the primitive actions on an MDP can be viewed as an SMDP problem
-  - Proves that allowing interruption of options increases V-value
-  - Introduces an option model learning algorithm
-  - Defines V- and Q- values for options and proves convergence of option Q-learning
-  - Gives example of gridworld where predefined options shortens learning
+  - Proves that using options instead of only the primitive actions on an MDP is an SMDP problem
+  - Proves that allowing interruption of options increases return
+  - Derives and roves convergence of option Q-learning
+  - Shows an environment where predefined options considerably shortens learning
   
 ### Learning Macro-Actions in Reinforcement learning [[NIPS 1998]](https://papers.nips.cc/paper/1586-learning-macro-actions-in-reinforcement-learning.pdf)
   - Jette Randløv	
