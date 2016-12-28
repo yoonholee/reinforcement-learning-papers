@@ -1,6 +1,8 @@
 ## Hierarchical Reinforcement Learning
 
-  
+### The Predictron: End-To-End Learning and Planning [[review ICLR 2017]] (https://openreview.net/pdf?id=BkJsCIcgl)
+  - David Silver, Hado van Hasselt, Matteo Hessel, Tom Schaul, Arthur Guez, Tim Harley, Gabriel Dulac-Arnold, David Reichert, Neil Rabinowitz, Andre Barreto, Thomas Degris
+
 ### Stochastic Neural Networks for Hierarchical Reinforcement Learning [[review ICLR 2017]](http://openreview.net/pdf?id=B1oK8aoxe)
   - Carlos Florensa, Yan Duan, Pieter Abbeel
   - Uses a stochastic neural network to learn skills before task is presented(pre-training)
