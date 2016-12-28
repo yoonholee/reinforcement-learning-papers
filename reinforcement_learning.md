@@ -1,4 +1,11 @@
 ## Reinforcement Learning
+
+
+### Learning to Play in a Day: Faster Deep Reinforcement Learning by Optimality Tightening [[review ICLR 2017]](https://arxiv.org/pdf/1611.01606v1.pdf)
+  - Frank S. He, Yang Liu, Alexander G. Schwing, Jian Peng  
+  
+### Reinforcement Learning with Unsupervised Auxiliary Tasks [[review ICLR 2017]] (https://openreview.net/pdf?id=SJ6yPD5xg)
+  - Max Jaderberg, Volodymyr Mnih, Wojciech Marian Czarnecki, Tom Schaul, Joel Z Leibo, David Silver, Koray Kavukcuoglu
   
 ### PGQ: Combining policy gradient and Q-learning [[review ICLR 2017]](https://arxiv.org/pdf/1611.01626v1.pdf)
   - Brendan O'Donoghue, Remi Munos, Koray Kavukcuoglu, Volodymyr Mnih
