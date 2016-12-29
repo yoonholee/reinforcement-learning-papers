@@ -2,12 +2,14 @@
 
 ### The Predictron: End-To-End Learning and Planning [[review ICLR 2017]] (https://openreview.net/pdf?id=BkJsCIcgl)
   - David Silver, Hado van Hasselt, Matteo Hessel, Tom Schaul, Arthur Guez, Tim Harley, Gabriel Dulac-Arnold, David Reichert, Neil Rabinowitz, Andre Barreto, Thomas Degris
-
+  - Proposes a NN architecture capable of learning an internal MRP and outputting value estimates
+  - Shows that the NN queries different depths on different tasks
+  
 ### Stochastic Neural Networks for Hierarchical Reinforcement Learning [[review ICLR 2017]](http://openreview.net/pdf?id=B1oK8aoxe)
   - Carlos Florensa, Yan Duan, Pieter Abbeel
   - Uses a stochastic neural network to learn skills before task is presented(pre-training)
   - Trains skills by maximizing channel capacity
-  - This algorithm solves continuous control tasks that were previously unsolved
+  - Solves continuous control tasks that were previously unsolved
   
 ### Surprise-based Intrinsic Motivation for Deep Reinforcement Learning [[review ICLR 2017]](https://openreview.net/pdf?id=Bk8aOm9xl)
   - Joshua Achiam & Shankar Sastry
