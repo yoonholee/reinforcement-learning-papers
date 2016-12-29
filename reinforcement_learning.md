@@ -30,6 +30,8 @@
   
 ### Deep Exploration via Bootstrapped DQN [[NIPS 2016]](https://arxiv.org/pdf/1602.04621v3.pdf)
   - Ian Osband, Charles Blundell, Alexander Pritzel, Benjamin Van Roy
+  - Bootstraps DQN heads with shared lower layers
+  - Results in more consistent('deep') exploration
 
 ### Continuous Control with Deep Reinforcement Learning [[ICLR 2016]](https://arxiv.org/pdf/1509.02971)
   - Timothy P. Lillicrap et al.
