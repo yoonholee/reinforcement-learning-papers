@@ -73,13 +73,9 @@
   
 ### Human-level Control Through Deep Reinforcement Learning [[Nature 2015]](http://home.uchicago.edu/~arij/journalclub/papers/2015_Mnih_et_al.pdf)
   - Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei A. Rusu, Joel Veness, Marc G. Bellemare, Alex Graves, Martin Riedmiller, Andreas K. Fidjeland, Georg Ostrovski, Stig Petersen, Charles Beattie, Amir Sadik, Ioannis Antonoglou, Helen King, Dharshan Kumaran, Daan Wierstra, Shane Legg & Demis Hassabis
-  - Appeared earlier in [NIPS 2013 Deep Learning Workshop](https://arxiv.org/pdf/1312.5602.pdf)
-  - Proposes using a deep convolutional network for Q-learning
-  - Uses experience replay(similar to  [Neural Fitted Q Iteration](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/q_learning.md#neural-fitted-q-iteration---first-experiences-with-a-data-efficient-neural-reinforcement-learning-method-ecml-2005)), storing only the last N experience tuples while using an epsilon greedy policy
+  - Proposes using a deep neural network with bellman equation as target for Q-learning 
+  - Uses 3 tricks for stability: separate prediction/target networks, experience replay, reward clipping
   - Points out that a scheme similar to experience replay happens in the hippocampus of the mammalian brain
-  - Difference with [Neural Fitted Q Iteration](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/q_learning.md#neural-fitted-q-iteration---first-experiences-with-a-data-efficient-neural-reinforcement-learning-method-ecml-2005)) is that this is an off-policy learning algorithm where the network determines the policy
-  - Periodically fixes network parameters for stability
-  - Mentions multiple times that a scheme similar to prioritized sweeping would speed up convergence, which is exactly [Prioritized Experience Replay](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/q_learning.md#prioritized-experience-replay-iclr-2016)
   
 ### Trust Region Policy Optimization [[ICML 2015]](https://arxiv.org/pdf/1502.05477)
   - John Schulman, Sergey Levine, Philipp Moritz, Michael Jordan, Pieter Abbeel
