@@ -21,12 +21,10 @@
   
 ### Dueling Network Architectures for Deep Reinforcement Learning [[ICML 2016]](https://arxiv.org/pdf/1511.06581.pdf)
   - Ziyu Wang, Tom Schaul, Matteo Hessel, Hado van Hasselt, Marc Lanctot, Nando de Freitas
-  - Two-stream DQN, each representing V(value function) and A(advantage function)
+  - Two-stream DQN, each stream representing V(value function) and A(advantage function)
   - Elinimates the instability of adding two numbers of different scale(V is usually much larger than A)
   - Updates actions more frequently than a single-stream DQN, where only a single Q value is updated for each observation
   - Implicitly splits the credit assignment problem into a recursive binary problem of "now or later"
-  - Arguably the first major breakthrough in network architectures specifically for deep RL
-  - Only works for finite action spaces
   
 ### Deep Exploration via Bootstrapped DQN [[NIPS 2016]](https://arxiv.org/pdf/1602.04621v3.pdf)
   - Ian Osband, Charles Blundell, Alexander Pritzel, Benjamin Van Roy
