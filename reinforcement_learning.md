@@ -56,7 +56,6 @@
   - Hado van Hasselt, Arthur Guez, David Silver
   - Points out that once [DQN](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/q_learning.md#playing-atari-with-deep-reinforcement-learning-nips-2014-deep-learning-workshop) overestimates a Q value, the overestimation 'spills over' to states that precede it
   - Uses different Q networks for action selection and evaluation
-  - Empirically shows that Double DQN outperforms DQN
   
 ### Asynchronous Methods for Deep Reinforcement Learning [[ICML 2016]](https://arxiv.org/pdf/1602.01783v2.pdf)
   - Volodymyr Mnih et al.
