@@ -50,9 +50,7 @@
 ### Prioritized Experience Replay [[ICLR 2016]](https://arxiv.org/pdf/1511.05952.pdf)
   - Tom Schaul, John Quan, Ioannis Antonoglou, David Silver
   - Samples (s,a,r,s') tuples with probability proportional to their TD error
-  - Uses a 'sum-tree' data structure to perform this quickly, where the value of a parent node is the sum of its children
   - Uses importance sampling weights to counteract the change in state distribution
-  - Inspired by prioritized sweeping
   
 ### Deep Reinforcement Learning with Double Q-Learning [[AAAI 2016]](https://arxiv.org/pdf/1509.06461.pdf)
   - Hado van Hasselt, Arthur Guez, David Silver
