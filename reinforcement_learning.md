@@ -19,8 +19,8 @@
   
 ### Sample Efficient Actor-Critic with Experience Replay [[review ICLR 2017]](https://arxiv.org/pdf/1611.01224v1.pdf)
   - Ziyu Wang, Victor Bapst, Nicolas Heess, Volodymyr Mnih, Remi Munos, Koray Kavukcuoglu, Nando de Freitas
-  - Partitions the policy gradient of Actor Critic into a stable off-policy part(Retrace) and its on-policy residual
-  - Using expereince replay on the off-policy component, achieves better sample efficiency
+  - Partitions the policy gradient of Actor-Critic into a stable off-policy part(Retrace) and its on-policy residual
+  - Achieves better sample efficiency by using experience replay on the off-policy component 
   
 ### Mastering the game of Go with deep neural networks and tree search [[Nature 2016]] (http://www.nature.com/nature/journal/v529/n7587/pdf/nature16961.pdf)
   - David Silver et al.
