@@ -35,7 +35,6 @@
   - Timothy P. Lillicrap et al.
   - Videos available [here](https://goo.gl/J4PIAz)
   - Suggests DDPG, which improves the actor-critic algorithm in [Deterministic Policy Gradient Algorithms](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/policy_gradient.md#deterministic-policy-gradient-algorithms-icml-2014) by using a DQN as the critic
-  - Empirically shown to be more efficient than DQN
   
 ### High-dimensional Continuous Control Using Generalized Advantage Functions [[ICLR 2016]](https://arxiv.org/pdf/1506.02438)
   - John Schulman, Philipp Moritz, Sergey Levine, Michael I. Jordan, Pieter Abbeel
