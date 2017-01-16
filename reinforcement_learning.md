@@ -14,8 +14,8 @@
   
 ### Q-Prop: Sample-Efficient Policy Gradient with An Off-Policy Critic [[review ICLR 2017]](https://arxiv.org/pdf/1611.02247v2.pdf)
   - Shixiang Gu, Timothy Lillicrap, Zoubin Ghahramani, Richard E. Turner, Sergey Levine
-  - Partitions the policy gradient of Actor Critic into an off-policy part(DPG) and a residual REINFORCE gradient
-  - Derivation was done by using the linearization of Q as a control variate
+  - Partitions the policy gradient of Actor-Critic into an off-policy part(DPG) and a residual REINFORCE gradient
+  - Derived using the linearization of Q as a control variate
   
 ### Sample Efficient Actor-Critic with Experience Replay [[review ICLR 2017]](https://arxiv.org/pdf/1611.01224v1.pdf)
   - Ziyu Wang, Victor Bapst, Nicolas Heess, Volodymyr Mnih, Remi Munos, Koray Kavukcuoglu, Nando de Freitas
