@@ -80,11 +80,6 @@
   - Instead of using a linear mixture, TRPO uses average KL divergence to ensure that the next policy is sufficiently close to current policy(in practice, approximate L linearly and KL divergence quadratically)
   - The natural policy gradient has the same direction as TRPO; the difference is that TRPO chooses a step size based on the trust region defined by KL divergence
   
-### Deep Recurrent Q-Learning for Partially Observable MDPs [[arxiv 2015]](https://arxiv.org/pdf/1507.06527v3.pdf)
-  - Matthew Hausknecht, Peter Stone
-  - Attaches an LSTM to a standard DQN, so that it can learn even with only timestep as input
-  - Experiments show that this is superior to DQN in an env where at each timestep, the state is obscured with probability 1/2
-  
 ### Deterministic Policy Gradient Algorithms [[ICML 2014]](http://jmlr.org/proceedings/papers/v32/silver14.pdf)
   - David Silver, Guy Lever, Nicolas Heess, Thomas Degris, Daan Wierstra, Martin Riedmiller
   - Derives a gradient for deterministic policies(assuming a continuous action space)
@@ -107,12 +102,6 @@
   - Parameterizes Q(s,a) as a weighted sum of log p(a|s)
   - Proves that the weight vector(above) is the direction of steepest descent with respect to the expectation of the fisher information matrix(natural policy gradient)
   - Suggests a REINFORCE-style algorithm using the natural gradient
-  
-### Neural Fitted Q Iteration - First Experiences with a Data Efficient Neural Reinforcement Learning Method [[ECML 2005]](http://ml.informatik.uni-freiburg.de/_media/publications/rieecml05.pdf)
-  - Martin Riedmiller
-  - Proposes using a neural network for Q-learning
-  - Input is a set of (s,a,s') and the neural network does RProp until convergence
-  - Closer to supervised learning than reinforcement learning, since the algorithm never acts
  
 ### Approximately Optimal Approximate Reinforcement Learning [[ICML 2002]](https://www.cs.cmu.edu/~./jcl/papers/aoarl/Final.pdf)
   - Sham Kakade, John Langford
