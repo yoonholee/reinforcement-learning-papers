@@ -9,11 +9,13 @@
   
 ### PGQ: Combining policy gradient and Q-learning [[review ICLR 2017]](https://arxiv.org/pdf/1611.01626v1.pdf)
   - Brendan O'Donoghue, Remi Munos, Koray Kavukcuoglu, Volodymyr Mnih
-  - Q can be estimated from policy and value function. Add a Q layer on an Actor Critic NN, and run Q Learningon the top layer in addition to the policy gradient update
+  - Q can be estimated from policy and value function. Add a Q layer on an Actor Critic NN, and run Q Learning on the top layer in addition to the policy gradient update
   - Shows the parallel between the Dueling Network and entropy-regulated Actor Critic
   
 ### Q-Prop: Sample-Efficient Policy Gradient with An Off-Policy Critic [[review ICLR 2017]](https://arxiv.org/pdf/1611.02247v2.pdf)
   - Shixiang Gu, Timothy Lillicrap, Zoubin Ghahramani, Richard E. Turner, Sergey Levine
+  - Partitions the policy gradient of Actor Critic into an off-policy part(DPG) and a residual REINFORCE gradient
+  - Derivation was done by using the linearization of Q as a control variate
   
 ### Sample Efficient Actor-Critic with Experience Replay [[review ICLR 2017]](https://arxiv.org/pdf/1611.01224v1.pdf)
   - Ziyu Wang, Victor Bapst, Nicolas Heess, Volodymyr Mnih, Remi Munos, Koray Kavukcuoglu, Nando de Freitas
