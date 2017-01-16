@@ -28,6 +28,9 @@
   - Core algorithm is Monte Carlo Tree Search using a trained policy network to get action probabilities
   - Leaf nodes are evaluated using both a fast rollout policy network and a trained value network
   
+### Asynchronous Methods for Deep Reinforcement Learning [[ICML 2016]](https://arxiv.org/pdf/1602.01783v2.pdf)
+  - Volodymyr Mnih et al.
+  
 ### Dueling Network Architectures for Deep Reinforcement Learning [[ICML 2016]](https://arxiv.org/pdf/1511.06581.pdf)
   - Ziyu Wang, Tom Schaul, Matteo Hessel, Hado van Hasselt, Marc Lanctot, Nando de Freitas
   - Two-stream DQN, each stream representing V (value function) and A (advantage function)
@@ -67,9 +70,6 @@
   - Hado van Hasselt, Arthur Guez, David Silver
   - Points out that once [DQN](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/q_learning.md#playing-atari-with-deep-reinforcement-learning-nips-2014-deep-learning-workshop) overestimates a Q value, the overestimation 'spills over' to states that precede it
   - Uses different Q networks for action selection and evaluation
-  
-### Asynchronous Methods for Deep Reinforcement Learning [[ICML 2016]](https://arxiv.org/pdf/1602.01783v2.pdf)
-  - Volodymyr Mnih et al.
   
 ### Action-Conditional Video Prediction using Deep Networks in Atari Games [[NIPS 2015]](https://arxiv.org/pdf/1507.08750v2.pdf)
   - Junhyuk Oh, Xiaoxiao Guo, Honglak Lee, Richard Lewis, Satinder Singh
