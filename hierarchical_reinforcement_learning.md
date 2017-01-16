@@ -34,7 +34,7 @@
   - Develops an algorithm that learns to plan sequences of actions in addition to their level of commitment
   - Only works for finite action spaces and a predetermined timeline
   
-### Learning Purposeful Behaviour in the Absence of Rewards [[ICML workshop 2016]](https://arxiv.org/pdf/1605.07700v1.pdf)
+### Learning Purposeful Behaviour in the Absence of Rewards [[ICML Workshop 2016]](https://arxiv.org/pdf/1605.07700v1.pdf)
   - Marlos C. Machado, Michael Bowling
   - Uses SVD to discover 'eigenpurposes': patterns in temporal difference
   - Learns 'eigenbehaviours': policies that maximize the occurrence of each eigenpurpose
@@ -49,7 +49,7 @@
   - Derives a variational inference algorithm for maximizing mutual information
   - The first tractable algorithm capable of computing empowerment
 
-### The Option-Critic Architecture [[NIPS workshop 2015]](https://arxiv.org/pdf/1609.05140v1.pdf)
+### The Option-Critic Architecture [[NIPS Workshop 2015]](https://arxiv.org/pdf/1609.05140v1.pdf)
   - Pierre-Luc Bacon, Jean Harb, Doina Precup
   - Derives policy gradient theorems for options
   
@@ -79,7 +79,7 @@
   - Derives and proves convergence of option Q-learning
   - Shows an environment where predefined options considerably shortens learning
   
-### Learning Macro-Actions in Reinforcement learning [[NIPS 1998]](https://papers.nips.cc/paper/1586-learning-macro-actions-in-reinforcement-learning.pdf)
+### Learning Macro-Actions in Reinforcement Learning [[NIPS 1998]](https://papers.nips.cc/paper/1586-learning-macro-actions-in-reinforcement-learning.pdf)
   - Jette Randløv	
   - Lets previous action influence the choice of action
   - Defines modified Q-value which is a linear combination of Q(s_t, a_t) and Q(a_t-1, a_t)
