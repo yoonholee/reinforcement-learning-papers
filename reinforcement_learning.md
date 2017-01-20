@@ -3,6 +3,9 @@
 
 ### Learning to Play in a Day: Faster Deep Reinforcement Learning by Optimality Tightening [[review ICLR 2017]](https://arxiv.org/pdf/1611.01606v1.pdf)
   - Frank S. He, Yang Liu, Alexander G. Schwing, Jian Peng  
+  - Adds n-step optimality bounds to the Q-learning loss
+  - Results in faster information propogation between different Q-values
+  - Learns to play Atari games in ~24 hours(~10x speedup compared to DQN)
   
 ### Reinforcement Learning with Unsupervised Auxiliary Tasks [[review ICLR 2017]] (https://openreview.net/pdf?id=SJ6yPD5xg)
   - Max Jaderberg, Volodymyr Mnih, Wojciech Marian Czarnecki, Tom Schaul, Joel Z Leibo, David Silver, Koray Kavukcuoglu
