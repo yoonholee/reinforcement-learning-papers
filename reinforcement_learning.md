@@ -6,6 +6,8 @@
   
 ### Reinforcement Learning with Unsupervised Auxiliary Tasks [[review ICLR 2017]] (https://openreview.net/pdf?id=SJ6yPD5xg)
   - Max Jaderberg, Volodymyr Mnih, Wojciech Marian Czarnecki, Tom Schaul, Joel Z Leibo, David Silver, Koray Kavukcuoglu
+  - A3C agent that attempts to minimize a sum of various losses including the standard policy gradient loss
+  - The attempt to solve various problems results in better representations
   
 ### PGQ: Combining policy gradient and Q-learning [[review ICLR 2017]](https://arxiv.org/pdf/1611.01626v1.pdf)
   - Brendan O'Donoghue, Remi Munos, Koray Kavukcuoglu, Volodymyr Mnih
