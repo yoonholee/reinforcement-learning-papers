@@ -30,6 +30,8 @@
   
 ### Asynchronous Methods for Deep Reinforcement Learning [[ICML 2016]](https://arxiv.org/pdf/1602.01783v2.pdf)
   - Volodymyr Mnih et al.
+  - Suggests A3C(Asynchronous Advantage Actor-Critic), which is the standard Actor-Critic algorithm run by many instances in parallel
+  - Surpasses current state-of-the-art in shorter time using a CPU
   
 ### Dueling Network Architectures for Deep Reinforcement Learning [[ICML 2016]](https://arxiv.org/pdf/1511.06581.pdf)
   - Ziyu Wang, Tom Schaul, Matteo Hessel, Hado van Hasselt, Marc Lanctot, Nando de Freitas
