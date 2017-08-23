@@ -1,5 +1,16 @@
 ## Reinforcement Learning
 
+### Parameter Space Noise for Exploration [[arXiv 2017]](https://arxiv.org/pdf/1706.01905.pdf)
+  - Accompanying blog post(https://blog.openai.com/better-exploration-with-parameter-noise/)
+
+### Evolution Strategies as a Scalable Alternative to Reinforcement Learning [[arXiv 2017]](https://arxiv.org/pdf/1703.03864.pdf)
+  - Accompanying blog post(https://blog.openai.com/evolution-strategies/)
+  
+### Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks [[ICML 2017]](https://arxiv.org/pdf/1703.03400.pdf)
+  - .
+
+### Neural Episodic Control [[ICML 2017]](https://arxiv.org/pdf/1703.01988.pdf)
+  - .
 
 ### Learning to Play in a Day: Faster Deep Reinforcement Learning by Optimality Tightening [[ICLR 2017]](https://arxiv.org/pdf/1611.01606.pdf)
   - Adds n-step optimality bounds to the Q-learning loss
