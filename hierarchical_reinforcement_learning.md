@@ -1,19 +1,16 @@
 ## Hierarchical Reinforcement Learning
 
-### The Predictron: End-To-End Learning and Planning [[review ICLR 2017]] (https://openreview.net/pdf?id=BkJsCIcgl)
+### The Predictron: End-To-End Learning and Planning [[arXiv 2016]](https://arxiv.org/pdf/1612.08810.pdf)
   - Proposes a NN architecture capable of learning an internal MRP and outputting value estimates
   - Shows that the NN queries different depths on different tasks
   
-### Stochastic Neural Networks for Hierarchical Reinforcement Learning [[review ICLR 2017]](http://openreview.net/pdf?id=B1oK8aoxe)
+### Stochastic Neural Networks for Hierarchical Reinforcement Learning [[ICLR 2017]](https://arxiv.org/pdf/1704.03012.pdf)
   - Uses a stochastic neural network to learn skills before task is presented(pre-training)
   - Trains skills by maximizing channel capacity
   - Solves continuous control tasks that were previously unsolved
   
-### Surprise-based Intrinsic Motivation for Deep Reinforcement Learning [[review ICLR 2017]](https://openreview.net/pdf?id=Bk8aOm9xl)
+### Surprise-based Intrinsic Motivation for Deep Reinforcement Learning [[ICLR 2017]](https://arxiv.org/pdf/1703.01732.pdf)
   - Introduces an additional reward term proportional to how unexpected the state transition was to the agent's model
-  
-### Options Discovery with Budgeted Reinforcement Learning [[review ICLR 2017]](https://arxiv.org/pdf/1611.06824v1.pdf)
-  - Sidesteps the difficulty in learning termination conditions of options by introducing a penalty for using full observation
   
 ### Strategic Attentive Writer for Learning Macro-Actions [[NIPS 2016]](https://arxiv.org/pdf/1606.04695v1.pdf)
   - Develops an algorithm that learns to plan sequences of actions in addition to their level of commitment
