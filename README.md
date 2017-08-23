@@ -1,8 +1,8 @@
 # Reinforcement Learning Survey
 
-This is a collection of my notes on reinforcement learning papers.
+My notes on (in my opinion) important reinforcement learning papers.
 
-Typo corrections, additional points, new papers etc are all very welcome. You can either make a pull request or email me at einet89[at]postech.ac.kr
+Typo corrections, additional points, paper suggestions etc are all very welcome. You can either make a pull request or email me at einet89[at]postech.ac.kr
 
 
 ## Topics
