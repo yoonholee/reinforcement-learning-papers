@@ -2,129 +2,95 @@
 
 
 ### Learning to Play in a Day: Faster Deep Reinforcement Learning by Optimality Tightening [[review ICLR 2017]](https://arxiv.org/pdf/1611.01606v1.pdf)
-  - Frank S. He, Yang Liu, Alexander G. Schwing, Jian Peng  
   - Adds n-step optimality bounds to the Q-learning loss
   - Results in faster information propogation between different Q-values
   - Learns to play Atari games in ~24 hours(~10x speedup compared to DQN)
   
-### Reinforcement Learning with Unsupervised Auxiliary Tasks [[review ICLR 2017]] (https://openreview.net/pdf?id=SJ6yPD5xg)
-  - Max Jaderberg, Volodymyr Mnih, Wojciech Marian Czarnecki, Tom Schaul, Joel Z Leibo, David Silver, Koray Kavukcuoglu
-  - A3C agent that attempts to minimize a sum of various losses including the standard policy gradient loss
-  - The attempt to solve various problems results in better representations
-  
 ### PGQ: Combining policy gradient and Q-learning [[review ICLR 2017]](https://arxiv.org/pdf/1611.01626v1.pdf)
-  - Brendan O'Donoghue, Remi Munos, Koray Kavukcuoglu, Volodymyr Mnih
   - We can estimate Q from policy and value function. Add a Q layer on an Actor-Critic NN, and run Q-Learning on the top layer in addition to the policy gradient update
   - Shows the parallel between the Dueling Network and entropy-regulated Actor-Critic
   
 ### Q-Prop: Sample-Efficient Policy Gradient with An Off-Policy Critic [[review ICLR 2017]](https://arxiv.org/pdf/1611.02247v2.pdf)
-  - Shixiang Gu, Timothy Lillicrap, Zoubin Ghahramani, Richard E. Turner, Sergey Levine
   - Partitions the policy gradient of Actor-Critic into an off-policy part(DPG) and a residual REINFORCE gradient
   - Derived using the linearization of Q as a control variate
   
 ### Sample Efficient Actor-Critic with Experience Replay [[review ICLR 2017]](https://arxiv.org/pdf/1611.01224v1.pdf)
-  - Ziyu Wang, Victor Bapst, Nicolas Heess, Volodymyr Mnih, Remi Munos, Koray Kavukcuoglu, Nando de Freitas
   - Partitions the policy gradient of Actor-Critic into a stable off-policy part(Retrace) and its on-policy residual
   - Achieves better sample efficiency by using experience replay on the off-policy component 
   
 ### Mastering the game of Go with deep neural networks and tree search [[Nature 2016]] (http://www.nature.com/nature/journal/v529/n7587/pdf/nature16961.pdf)
-  - David Silver et al.
   - Use RL to play Go
   - Core algorithm is Monte Carlo Tree Search using a trained policy network to get action probabilities
   - Leaf nodes are evaluated using both a fast rollout policy network and a trained value network
   
 ### Asynchronous Methods for Deep Reinforcement Learning [[ICML 2016]](https://arxiv.org/pdf/1602.01783v2.pdf)
-  - Volodymyr Mnih et al.
   - Suggests A3C(Asynchronous Advantage Actor-Critic), which is the standard Actor-Critic algorithm run by many instances in parallel
   - Surpasses current state-of-the-art in shorter time using a CPU
   
 ### Dueling Network Architectures for Deep Reinforcement Learning [[ICML 2016]](https://arxiv.org/pdf/1511.06581.pdf)
-  - Ziyu Wang, Tom Schaul, Matteo Hessel, Hado van Hasselt, Marc Lanctot, Nando de Freitas
   - Two-stream DQN, each stream representing V (value function) and A (advantage function)
   - Eliminates the instability of adding two numbers of different scale(V is usually much larger than A)
   - By updating multiple Q values on each observation, effectively updates more frequently than a single-stream DQN
   - Implicitly splits the credit assignment problem into a recursive binary problem of "now or later"
   
 ### Deep Exploration via Bootstrapped DQN [[NIPS 2016]](https://arxiv.org/pdf/1602.04621v3.pdf)
-  - Ian Osband, Charles Blundell, Alexander Pritzel, Benjamin Van Roy
   - Bootstraps DQN heads with shared lower layers
   - Results in more consistent('deep') exploration
 
 ### Continuous Control with Deep Reinforcement Learning [[ICLR 2016]](https://arxiv.org/pdf/1509.02971)
-  - Timothy P. Lillicrap et al.
   - Videos available [here](https://goo.gl/J4PIAz)
   - Suggests DDPG, which improves the actor-critic algorithm in [Deterministic Policy Gradient Algorithms](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/policy_gradient.md#deterministic-policy-gradient-algorithms-icml-2014) by using a DQN as the critic
   
 ### High-dimensional Continuous Control Using Generalized Advantage Functions [[ICLR 2016]](https://arxiv.org/pdf/1506.02438)
-  - John Schulman, Philipp Moritz, Sergey Levine, Michael I. Jordan, Pieter Abbeel
   - Derives a class of estimators(GAE) of the advantage function, parameterized by two real numbers in [0,1]
   - Empirical performance of TRPO+GAE is better than TRPO in some tasks
   
-### Safe and Efficient Off-Policy Reinforcement Learning [[NIPS 2016]](https://arxiv.org/pdf/1606.02647v2.pdf)
-  - Rémi Munos, Tom Stepleton, Anna Harutyunyan, Marc G. Bellemare
-  
 ### Connecting Generative Adversarial Networks and Actor-Critic Methods [[arxiv 2016]] (https://arxiv.org/pdf/1610.01945v2.pdf)
-  - David Pfau, Oriol Vinyals
   - Constructs an Actor-Critic architecture that is equivalent to GAN: randomly choose state between a real image and an image generated by the actor, action is setting every pixel in an image. Real image: reward 1, Synthetic image: reward 0
   - Cross-examines the approaches used to stabilize GANs and AC architectures
   
-### Prioritized Experience Replay [[ICLR 2016]](https://arxiv.org/pdf/1511.05952.pdf)
-  - Tom Schaul, John Quan, Ioannis Antonoglou, David Silver
-  - Samples (s,a,r,s') tuples with probability proportional to their TD error
-  - Uses importance sampling weights to counteract the change in state distribution
-  
 ### Deep Reinforcement Learning with Double Q-Learning [[AAAI 2016]](https://arxiv.org/pdf/1509.06461.pdf)
-  - Hado van Hasselt, Arthur Guez, David Silver
   - Points out that once [DQN](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/q_learning.md#playing-atari-with-deep-reinforcement-learning-nips-2014-deep-learning-workshop) overestimates a Q value, the overestimation 'spills over' to states that precede it
   - Uses different Q networks for action selection and evaluation
   
 ### Action-Conditional Video Prediction using Deep Networks in Atari Games [[NIPS 2015]](https://arxiv.org/pdf/1507.08750v2.pdf)
-  - Junhyuk Oh, Xiaoxiao Guo, Honglak Lee, Richard Lewis, Satinder Singh
   - Constructs a NN that predicts the next frame of an Atari game given the current frame and action
   - Exploration using predicted frames marginally increases score
   
 ### Human-level Control Through Deep Reinforcement Learning [[Nature 2015]](http://home.uchicago.edu/~arij/journalclub/papers/2015_Mnih_et_al.pdf)
-  - Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei A. Rusu, Joel Veness, Marc G. Bellemare, Alex Graves, Martin Riedmiller, Andreas K. Fidjeland, Georg Ostrovski, Stig Petersen, Charles Beattie, Amir Sadik, Ioannis Antonoglou, Helen King, Dharshan Kumaran, Daan Wierstra, Shane Legg & Demis Hassabis
-  - Proposes using a deep neural network with Bellman equation as target for Q-learning 
+  - Proposes using a deep neural network with Bellman backup as regression target
   - Uses three tricks for stability: separate prediction/target networks, experience replay, reward clipping
   - Points out that a scheme similar to experience replay happens in the hippocampus of the mammalian brain
   
 ### Trust Region Policy Optimization [[ICML 2015]](https://arxiv.org/pdf/1502.05477)
-  - John Schulman, Sergey Levine, Philipp Moritz, Michael Jordan, Pieter Abbeel
   - Builds on [Approximately Optimal Approximate Reinforcement Learning](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/policy_gradient.md#approximately-optimal-approximate-reinforcement-learning-icml-2002)
   - Instead of using a linear mixture, TRPO uses average KL divergence to ensure that the next policy is sufficiently close to current policy(in practice, approximate L linearly and KL divergence quadratically)
   - The natural policy gradient has the same direction as TRPO; the difference is that TRPO chooses a step size based on the trust region defined by KL divergence
   
 ### Deterministic Policy Gradient Algorithms [[ICML 2014]](http://jmlr.org/proceedings/papers/v32/silver14.pdf)
-  - David Silver, Guy Lever, Nicolas Heess, Thomas Degris, Daan Wierstra, Martin Riedmiller
   - Derives a gradient for deterministic policies(assuming a continuous action space)
   - Proves(under mild regularity conditions) that all previously developed machinery for stochastic policy gradients(i.e. compatible function approximation, actor-critic, natural gradients, and episodic/batch methods) apply to deterministic policy gradients.
   - All proofs are in [a separate document](http://jmlr.org/proceedings/papers/v32/silver14-supp.pdf)
 
 ### Reinforcement learning of motor skills with policy gradients [[Neural Networks 2008]](http://is.tuebingen.mpg.de/fileadmin/user_upload/files/publications/Neural-Netw-2008-21-682_4867[0].pdf)
-  - Jan Peters, Stefan Schaal
   - An extensive survey of policy gradient methods
   - Covers naive finite-difference methods, REINFORCE, NAC(Natural Actor-Critic)
   - NAC is shown to be the state of the art
   
 ### Natural Actor-Critic [[Neurocomputing 2008]] (http://ac.els-cdn.com/S0925231208000532/1-s2.0-S0925231208000532-main.pdf?_tid=5001927e-69ce-11e6-87f9-00000aacb35f&acdnat=1472024730_f49e79f185266d4824826941cec13967)
-  - Jan Peters, Stefan Schaal
   - Proves that the weight vector discussed in [A Natural Policy Gradient](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/policy_gradient.md#a-natural-policy-gradient-nips-2002) is actually the natural gradient, rather than just a gradient defined by an average of point Fisher information matrices
   - Suggests an Actor-Critic style algorithm using the natural gradient
   
 ### A Natural Policy Gradient [[NIPS 2002]](http://papers.nips.cc/paper/2073-a-natural-policy-gradient.pdf)
-  - Sham Kakade
   - Parameterizes Q(s,a) as a weighted sum of log p(a|s)
   - Proves that the weight vector(above) is the direction of steepest descent w.r.t. the expectation of the Fisher information matrix(natural policy gradient)
   - Suggests a REINFORCE-style algorithm using the natural gradient
  
 ### Approximately Optimal Approximate Reinforcement Learning [[ICML 2002]](https://www.cs.cmu.edu/~./jcl/papers/aoarl/Final.pdf)
-  - Sham Kakade, John Langford
   - Points out the inefficiency of policy gradients using two example MDPs(section 3.2)
   - Derives a conservative policy iteration scheme that finds a policy that is almost optimal(within epsilon) in polynomial(w.r.t. epsilon) time
   - The key idea is that we can get a provably improved policy by using a linear mixture between the current policy and the greedily improved policy
 
 ### Convergence of Stochastic Iterative Dynamic Programming Algorithms [[NIPS 1994]](http://papers.nips.cc/paper/764-convergence-of-stochastic-iterative-dynamic-programming-algorithms.pdf)
-  - Tommi Jaakkola, Michael I. Jordan, Satinder P. Singh
   - Proves the convergence of Q-Learning to optimal Q values given some mild regulatory conditions
   - Gives a similar proof for TD(lambda)
