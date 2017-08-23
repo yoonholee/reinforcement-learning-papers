@@ -1,22 +1,27 @@
 ## Reinforcement Learning
 
 
-### Learning to Play in a Day: Faster Deep Reinforcement Learning by Optimality Tightening [[review ICLR 2017]](https://arxiv.org/pdf/1611.01606v1.pdf)
+### Learning to Play in a Day: Faster Deep Reinforcement Learning by Optimality Tightening [[ICLR 2017]](https://arxiv.org/pdf/1611.01606.pdf)
   - Adds n-step optimality bounds to the Q-learning loss
   - Results in faster information propogation between different Q-values
   - Learns to play Atari games in ~24 hours(~10x speedup compared to DQN)
   
-### PGQ: Combining policy gradient and Q-learning [[review ICLR 2017]](https://arxiv.org/pdf/1611.01626v1.pdf)
+### PGQ: Combining policy gradient and Q-learning [[ICLR 2017]](https://arxiv.org/pdf/1611.01626.pdf)
   - We can estimate Q from policy and value function. Add a Q layer on an Actor-Critic NN, and run Q-Learning on the top layer in addition to the policy gradient update
   - Shows the parallel between the Dueling Network and entropy-regulated Actor-Critic
   
-### Q-Prop: Sample-Efficient Policy Gradient with An Off-Policy Critic [[review ICLR 2017]](https://arxiv.org/pdf/1611.02247v2.pdf)
+### Q-Prop: Sample-Efficient Policy Gradient with An Off-Policy Critic [[ICLR 2017]](https://arxiv.org/pdf/1611.02247.pdf)
   - Partitions the policy gradient of Actor-Critic into an off-policy part(DPG) and a residual REINFORCE gradient
   - Derived using the linearization of Q as a control variate
   
-### Sample Efficient Actor-Critic with Experience Replay [[review ICLR 2017]](https://arxiv.org/pdf/1611.01224v1.pdf)
+### Sample Efficient Actor-Critic with Experience Replay [[ICLR 2017]](https://arxiv.org/pdf/1611.01224.pdf)
   - Partitions the policy gradient of Actor-Critic into a stable off-policy part(Retrace) and its on-policy residual
   - Achieves better sample efficiency by using experience replay on the off-policy component 
+
+### Unifying Count-Based Exploration and Intrinsic Motivation [[NIPS 2016]](https://arxiv.org/pdf/1606.01868v2.pdf)
+  - Introduces 'pseudo-count': an approximation to count from an arbitrary density model
+  - Pseudo-count enables us to use count based algorithms on large or continuous state space MDPs
+  - Explores Montezuma's Revenge effectively(!)
   
 ### Mastering the game of Go with deep neural networks and tree search [[Nature 2016]] (http://www.nature.com/nature/journal/v529/n7587/pdf/nature16961.pdf)
   - Use RL to play Go
