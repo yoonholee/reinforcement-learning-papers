@@ -1,5 +1,11 @@
 ## Hierarchical Reinforcement Learning
 
+### Modular Multitask Reinforcement Learning with Policy Sketches [[ICML 2017]](https://arxiv.org/pdf/1611.01796.pdf)
+  - .
+  
+### FeUdal Networks for Hierarchical Reinforcement Learning [[ICML 2017]](https://arxiv.org/pdf/1703.01161.pdf)
+  - .
+
 ### The Predictron: End-To-End Learning and Planning [[arXiv 2016]](https://arxiv.org/pdf/1612.08810.pdf)
   - Proposes a NN architecture capable of learning an internal MRP and outputting value estimates
   - Shows that the NN queries different depths on different tasks
