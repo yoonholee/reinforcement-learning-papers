@@ -5,12 +5,12 @@ My notes on (in my opinion) important reinforcement learning papers.
 Typo corrections, additional points, paper suggestions etc are all very welcome. You can either make a pull request or email me at einet89[at]postech.ac.kr
 
 
-## Topics
+## Short Summaries
 
 - [Reinforcement Learning](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/reinforcement_learning.md)
 - [Hierarchical Reinforcement Learning](https://github.com/yoonholee/Reinforcement-Learning-Survey/blob/master/hierarchical_reinforcement_learning.md)
 
-## Slides
+## Presentation Slides
 Date | Contents
 ------------ | -------------
 2016/10/11 | [DQN and its variants: DQN, DDQN, Prioritized Experience Replay, Dueling Network](https://github.com/yoonholee/reinforcement-learning-papers/blob/master/Presentation%20slides/20161011_Dueling.pdf)
