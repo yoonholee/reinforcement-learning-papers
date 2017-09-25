@@ -13,8 +13,9 @@ Typo corrections, additional points, paper suggestions etc are all very welcome.
 ## Presentation Slides
 Date | Contents
 ------------ | -------------
-2016/10/11 | [DQN and its variants: DQN, DDQN, Prioritized Experience Replay, Dueling Network](https://github.com/yoonholee/reinforcement-learning-papers/blob/master/Presentation%20slides/20161011_Dueling.pdf)
-2016/12/27 | [Model-based deep RL: Value Iteration Networks, The Predictron](https://github.com/yoonholee/reinforcement-learning-papers/blob/master/Presentation%20slides/20161227_Predictron.pdf)
-2017/05/29 | [Deep RL, Variational Inference, and Generalized Backprop: Stochastic Computation Graphs](https://github.com/yoonholee/reinforcement-learning-papers/blob/master/Presentation%20slides/20170509_Stochastic_Computation_Graphs.pdf)
-2017/07/12 | [Deep RL without backprop: Evolution Strategies](https://github.com/yoonholee/reinforcement-learning-papers/blob/master/Presentation%20slides/20170712_Evolution_Strategies.pdf)
-2017/08/09 | [Hierarchical Deep RL: Modular Multitask RL with Policy Sketches](https://github.com/yoonholee/reinforcement-learning-papers/blob/master/Presentation%20slides/20170809_Modular_Multitask.pdf)
+2016/10/11 | [DQN and its variants: DQN, DDQN, Prioritized Experience Replay, Dueling Network](https://www.slideshare.net/YoonhoLee4/dueling-network-architectures-for-deep-reinforcement-learning-80124109)
+2016/12/27 | [Model-based deep RL: Value Iteration Networks, The Predictron](https://www.slideshare.net/YoonhoLee4/the-predictron-endtoend-learning-and-planning)
+2017/05/29 | [Deep RL, Variational Inference, and Generalized Backprop: Stochastic Computation Graphs](https://www.slideshare.net/YoonhoLee4/gradient-estimation-using-stochastic-computation-graphs)
+2017/07/12 | [Deep RL without backprop: Evolution Strategies](https://www.slideshare.net/YoonhoLee4/evolution-strategies-as-a-scalable-alternative-to-reinforcement-learning)
+2017/08/09 | [Hierarchical Deep RL: Modular Multitask RL with Policy Sketches](https://www.slideshare.net/YoonhoLee4/modular-multitask-reinforcement-learning-with-policy-sketches)
+2017/09/14 | [Meta Reinforcement Learning: Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://www.slideshare.net/YoonhoLee4/modelagnostic-metalearning-for-fast-adaptation-of-deep-networks)
