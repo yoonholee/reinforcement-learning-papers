@@ -7,7 +7,9 @@
   - Accompanying blog post(https://blog.openai.com/evolution-strategies/)
   
 ### Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks [[ICML 2017]](https://arxiv.org/pdf/1703.03400.pdf)
-  - .
+  - Objective function is loss after one gradient step, and initial weights are optimized
+  - Applicable to all models using gradient descent: experiments include sinusoid regression, one-shot image classification, and fast adaptation in RL environments
+  - Rather than learning weights with low expected loss(multitask), learns weights with possibly high expected loss but that are highly sensitive to task identity and can achieve low loss with one gradient step
 
 ### Neural Episodic Control [[ICML 2017]](https://arxiv.org/pdf/1703.01988.pdf)
   - .
