@@ -5,6 +5,9 @@
 
 ### Evolution Strategies as a Scalable Alternative to Reinforcement Learning [[arXiv 2017]](https://arxiv.org/pdf/1703.03864.pdf)
   - Accompanying blog post(https://blog.openai.com/evolution-strategies/)
+  - Score Function Gradient (REINFORCE) directly on parameters
+  - Ignores all time structure in envs
+  - Very parallelizable: many CPUs = fast training!
   
 ### Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks [[ICML 2017]](https://arxiv.org/pdf/1703.03400.pdf)
   - Objective function is loss after one gradient step, and initial weights are optimized
