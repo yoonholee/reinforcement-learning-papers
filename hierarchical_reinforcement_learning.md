@@ -1,7 +1,8 @@
 ## Hierarchical Reinforcement Learning
 
 ### Modular Multitask Reinforcement Learning with Policy Sketches [[ICML 2017]](https://arxiv.org/pdf/1611.01796.pdf)
-  - .
+  - Proposes to use as supervision for hierarchical agents "policy sketches": sequences of reusable blocks of behavior without any specifics of the behaviors themselves
+  - Interesting idea, probably more efficient than e.g. reward design
   
 ### FeUdal Networks for Hierarchical Reinforcement Learning [[ICML 2017]](https://arxiv.org/pdf/1703.01161.pdf)
   - Proposes a manager-worker architecture: manager sets goals for worker and both agents are trained with policy gradients
