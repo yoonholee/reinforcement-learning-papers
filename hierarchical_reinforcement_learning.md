@@ -4,7 +4,9 @@
   - .
   
 ### FeUdal Networks for Hierarchical Reinforcement Learning [[ICML 2017]](https://arxiv.org/pdf/1703.01161.pdf)
-  - .
+  - Proposes a manager-worker architecture: manager sets goals for worker and both agents are trained with policy gradients
+  - Assumes that manager's decisions result in a particular distribution over future states; this seems unlikely
+  - ~2000 on Montezuma's Revenge
 
 ### The Predictron: End-To-End Learning and Planning [[arXiv 2016]](https://arxiv.org/pdf/1612.08810.pdf)
   - Proposes a NN architecture capable of learning an internal MRP and outputting value estimates
